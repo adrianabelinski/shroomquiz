@@ -2,7 +2,10 @@ import SwiftUI
 
 struct QuizView: View {
   var body: some View {
-    Text("Hello, world!")
+    Image("flyagaric")
+      .resizable()
+      .scaledToFit()
+      .cornerRadius(10)
       .padding()
   }
 }
