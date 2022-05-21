@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ShroomQuiz
-//
-//  Created by Adriana Belinski on 5/21/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
