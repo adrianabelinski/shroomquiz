@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222A28399F2C0000B820 /* ShroomQuizApp.swift */; };
-		C691222D28399F2C0000B820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222C28399F2C0000B820 /* ContentView.swift */; };
+		C691222D28399F2C0000B820 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222C28399F2C0000B820 /* QuizView.swift */; };
 		C691222F28399F2E0000B820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691222E28399F2E0000B820 /* Assets.xcassets */; };
 		C691223228399F2E0000B820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691223128399F2E0000B820 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		C691222728399F2C0000B820 /* ShroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C691222A28399F2C0000B820 /* ShroomQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomQuizApp.swift; sourceTree = "<group>"; };
-		C691222C28399F2C0000B820 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C691222C28399F2C0000B820 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		C691222E28399F2E0000B820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C691223128399F2E0000B820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
-				C691222C28399F2C0000B820 /* ContentView.swift */,
+				C691222C28399F2C0000B820 /* QuizView.swift */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
 				C691223028399F2E0000B820 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C691222D28399F2C0000B820 /* ContentView.swift in Sources */,
+				C691222D28399F2C0000B820 /* QuizView.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
