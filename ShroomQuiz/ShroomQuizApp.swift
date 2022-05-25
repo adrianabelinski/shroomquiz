@@ -4,7 +4,16 @@ import SwiftUI
 struct ShroomQuizApp: App {
   var body: some Scene {
     WindowGroup {
-      QuizView()
+      TabView{
+        QuizView()
+          .tabItem {
+            Label("Quiz", systemImage: "play.fill")
+          }
+        AboutView()
+          .tabItem {
+            Label("About", systemImage: "info.circle.fill")
+          }
+      }
     }
   }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D5E283EE41C00ADE3F9 /* AboutView.swift */; };
 		C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222A28399F2C0000B820 /* ShroomQuizApp.swift */; };
 		C691222D28399F2C0000B820 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222C28399F2C0000B820 /* QuizView.swift */; };
 		C691222F28399F2E0000B820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691222E28399F2E0000B820 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C691222728399F2C0000B820 /* ShroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C691222A28399F2C0000B820 /* ShroomQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomQuizApp.swift; sourceTree = "<group>"; };
 		C691222C28399F2C0000B820 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
+				C6841D5E283EE41C00ADE3F9 /* AboutView.swift */,
 				C691222C28399F2C0000B820 /* QuizView.swift */,
 				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
 				C691223C2839A6F40000B820 /* Color+.swift */,
@@ -147,6 +150,7 @@
 				C691223D2839A6F40000B820 /* Color+.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
+				C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

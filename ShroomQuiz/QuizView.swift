@@ -27,6 +27,7 @@ struct QuizView: View {
       Button(action: {}) {
         Text("Morchella")
       }
+     
       .buttonStyle(QuizButtonStyle())
     }
   }
