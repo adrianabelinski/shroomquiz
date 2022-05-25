@@ -38,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6841D60283EE62200ADE3F9 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				C691222C28399F2C0000B820 /* QuizView.swift */,
+				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		C6841D61283EE63400ADE3F9 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				C6841D5E283EE41C00ADE3F9 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		C6841D63283EE65500ADE3F9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C691223C2839A6F40000B820 /* Color+.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C691221E28399F2C0000B820 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
-				C6841D5E283EE41C00ADE3F9 /* AboutView.swift */,
-				C691222C28399F2C0000B820 /* QuizView.swift */,
-				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
-				C691223C2839A6F40000B820 /* Color+.swift */,
+				C6841D60283EE62200ADE3F9 /* Quiz */,
+				C6841D61283EE63400ADE3F9 /* About */,
+				C6841D63283EE65500ADE3F9 /* Shared */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
 				C691223028399F2E0000B820 /* Preview Content */,
 			);

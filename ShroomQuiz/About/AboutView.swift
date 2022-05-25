@@ -1,10 +1,3 @@
-//
-//  AboutView.swift
-//  ShroomQuiz
-//
-//  Created by Adriana Belinski on 5/25/22.
-//
-
 import SwiftUI
 
 struct AboutView: View {
