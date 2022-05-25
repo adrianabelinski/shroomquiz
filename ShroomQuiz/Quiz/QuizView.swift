@@ -1,9 +1,11 @@
 import SwiftUI
 
 struct QuizView: View {
+  let randomCard = CardRepository().getRandomCard()
+  
   var body: some View {
     VStack {
-      Image("flyagaric")
+      Image(randomCard.imageName)
         .resizable()
         .scaledToFit()
         .cornerRadius(10)
