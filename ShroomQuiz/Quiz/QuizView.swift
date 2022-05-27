@@ -7,7 +7,7 @@ struct QuizView: View {
     VStack {
       Image(randomCard.imageName)
         .resizable()
-        .scaledToFit()
+        .aspectRatio(1, contentMode: .fill)
         .cornerRadius(10)
         .padding()
       
@@ -29,7 +29,6 @@ struct QuizView: View {
       Button(action: {}) {
         Text("Morchella")
       }
-     
       .buttonStyle(QuizButtonStyle())
     }
   }
