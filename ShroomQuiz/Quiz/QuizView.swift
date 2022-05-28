@@ -1,11 +1,11 @@
 import SwiftUI
 
 struct QuizView: View {
-  let randomCard = CardRepository().getRandomCard()
+  @StateObject var viewModel = QuizViewModel()
   
   var body: some View {
     VStack {
-      Image(randomCard.imageName)
+      Image(viewModel.displayedCard.imageName)
         .resizable()
         .aspectRatio(1, contentMode: .fill)
         .cornerRadius(10)
