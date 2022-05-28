@@ -1,7 +1,7 @@
 import UIKit
 
 struct CardRepository {
-  let cards = [
+  let cards: Set<Card> = [
     Card(scientificName: "Amanita muscaria", commonName: "Fly Agaric", imageName: "fly-agaric"),
     Card(scientificName: "Pleurotus ostreatus", commonName: "Oyster Mushroom", imageName: "oyster-mushroom"),
     Card(scientificName: "Morchella", commonName: "Morel Mushroom", imageName: "morel-mushroom"),
@@ -31,12 +31,17 @@ struct CardRepository {
   
   func getRandomCard() -> Card {
     let randomIndex = Int.random(in: 0...cards.count - 1)
-    let randomCard = cards[randomIndex]
+    let randomCard = Array(cards)[randomIndex]
     return randomCard
   }
   
-//  func wrongCards(for card: Card) -> [Card] {
-//    var otherCards = cards
-//    otherCards.remove
-//  }
+  func wrongCards(for rightCard: Card) -> [Card] {
+    var otherCards = cards
+    otherCards.remove(rightCard)
+    
+    let randomizedOtherCardsArray = Array(otherCards)
+      .shuffled()
+    
+    return Array(randomizedOtherCardsArray[0...2])
+  }
 }

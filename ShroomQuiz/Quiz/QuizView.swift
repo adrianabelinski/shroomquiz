@@ -12,25 +12,12 @@ struct QuizView: View {
           .cornerRadius(10)
           .padding()
         
-        Button(action: viewModel.displayNextCard) {
-          Text("Hericium erinaceus")
+        ForEach(viewModel.buttonOptions, id: \.self) { buttonOption in
+          Button(action: viewModel.displayNextCard) {
+            Text(buttonOption)
+          }
+          .buttonStyle(QuizButtonStyle())
         }
-        .buttonStyle(QuizButtonStyle())
-        
-        Button(action: viewModel.displayNextCard) {
-          Text("Amanita muscaria")
-        }
-        .buttonStyle(QuizButtonStyle())
-        
-        Button(action: viewModel.displayNextCard) {
-          Text("Pleurotus")
-        }
-        .buttonStyle(QuizButtonStyle())
-        
-        Button(action: viewModel.displayNextCard) {
-          Text("Morchella")
-        }
-        .buttonStyle(QuizButtonStyle())
       }
     } else {
       ProgressView()
