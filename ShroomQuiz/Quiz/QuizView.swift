@@ -6,10 +6,14 @@ struct QuizView: View {
   var body: some View {
     if let displayedCard = viewModel.displayedCard {
       VStack {
-        Image(displayedCard.imageName)
-          .resizable()
+        Color.clear
+          .overlay(
+            Image(displayedCard.imageName)
+              .resizable()
+              .scaledToFill()
+          )
+          .clipped()
           .aspectRatio(1, contentMode: .fill)
-          .cornerRadius(10)
           .padding()
         
         ForEach(viewModel.buttonOptions, id: \.self) { buttonOption in
