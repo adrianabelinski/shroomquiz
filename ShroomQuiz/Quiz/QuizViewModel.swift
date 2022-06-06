@@ -1,10 +1,18 @@
 import Foundation
 
 class QuizViewModel: ObservableObject {
-  @Published var displayedCard: Card?
+  
+  // MARK: - Public properties
+  
+  @Published var imageName: String?
   @Published var buttonOptions: [String] = []
   
+  // MARK: - Private properties
+  
+  private var displayedCard: Card?
   private let cardRepository = CardRepository()
+  
+  // MARK: - Public methods
   
   func displayNextCard() {
     let displayedCard = cardRepository.getRandomCard()
@@ -20,6 +28,8 @@ class QuizViewModel: ObservableObject {
     buttonOptions.shuffle()
     
     self.displayedCard = displayedCard
+    
+    self.imageName = displayedCard.imageName
     self.buttonOptions = buttonOptions
   }
 }

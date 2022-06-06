@@ -4,9 +4,9 @@ struct QuizView: View {
   @StateObject var viewModel = QuizViewModel()
   
   var body: some View {
-    if let displayedCard = viewModel.displayedCard {
+    if let imageName = viewModel.imageName {
       VStack {
-        Image(displayedCard.imageName)
+        Image(imageName)
           .resizable()
           .aspectRatio(contentMode: .fit)
           .cornerRadius(10)
