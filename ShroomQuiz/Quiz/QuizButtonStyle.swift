@@ -6,7 +6,7 @@ struct QuizButtonStyle: ButtonStyle {
       .font(.title2)
       .frame(width: 300, height: 50, alignment: .center)
       .background(Color.gemGreen)
-      .foregroundColor(Color.white)
+      .foregroundColor(Color.black)
       .cornerRadius(10)
       .padding(7)
   }
