@@ -5,6 +5,7 @@ class QuizViewModel: ObservableObject {
   // MARK: - Public properties
   
   @Published var imageName: String?
+  @Published var imageOverlayText: String?
   @Published var buttonOptions: [String] = []
   
   // MARK: - Private properties
@@ -30,6 +31,7 @@ class QuizViewModel: ObservableObject {
     self.displayedCard = displayedCard
     
     self.imageName = displayedCard.imageName
+    self.imageOverlayText = "Lorem Ipsum"
     self.buttonOptions = buttonOptions
   }
 }
