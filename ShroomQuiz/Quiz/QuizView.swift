@@ -7,7 +7,11 @@ struct QuizView: View {
   var body: some View {
     VStack() {
       if case let .displayingQuestion(imageName, buttonOptions) = viewModel.state {
-        QuizImage(imageName: imageName, imageOverlayText: nil)
+        QuizImage(
+          imageName: imageName,
+          imageOverlayText: nil,
+          imageOverlayTextBackgroundColor: nil
+        )
         
         ForEach(buttonOptions, id: \.self) { buttonOption in
           Button(action: {
@@ -18,10 +22,18 @@ struct QuizView: View {
           .buttonStyle(QuizButtonStyle())
         }
       } else if case let .correctResponse(imageName, imageOverlayText) = viewModel.state {
-        QuizImage(imageName: imageName, imageOverlayText: imageOverlayText)
+        QuizImage(
+          imageName: imageName,
+          imageOverlayText: imageOverlayText,
+          imageOverlayTextBackgroundColor: .gemGreen.opacity(0.8)
+        )
         nextButton
       } else if case let .incorrectResponse(imageName, imageOverlayText) = viewModel.state {
-        QuizImage(imageName: imageName, imageOverlayText: imageOverlayText)
+        QuizImage(
+          imageName: imageName,
+          imageOverlayText: imageOverlayText,
+          imageOverlayTextBackgroundColor: .yellow.opacity(0.8)
+        )
         nextButton
       }
       

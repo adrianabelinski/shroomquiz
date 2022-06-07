@@ -4,6 +4,7 @@ struct QuizImage: View {
   
   let imageName: String
   let imageOverlayText: String?
+  let imageOverlayTextBackgroundColor: Color?
   
   var body: some View {
     Image(imageName)
@@ -21,7 +22,7 @@ struct QuizImage: View {
                 .padding()
               Spacer()
             }
-            .background(Color.gemGreen.opacity(0.8))
+            .background(imageOverlayTextBackgroundColor)
           }
         }
       }
