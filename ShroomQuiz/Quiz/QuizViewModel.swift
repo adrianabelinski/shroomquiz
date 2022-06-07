@@ -7,8 +7,8 @@ class QuizViewModel: ObservableObject {
   enum State {
     case loading
     case displayingQuestion(imageName: String, options: [String])
-    case incorrectResponse(imageOverlayText: String)
-    case correctResponse(imageOverlayText: String)
+    case correctResponse(imageName: String, imageOverlayText: String)
+    case incorrectResponse(imageName: String, imageOverlayText: String)
   }
   
   // MARK: - Public properties
@@ -22,7 +22,7 @@ class QuizViewModel: ObservableObject {
   
   // MARK: - Public methods
   
-  func displayNextCard() {
+  func displayNewCard() {
     let displayedCard = cardRepository.getRandomCard()
     
     let wrongCards = cardRepository.wrongCards(for: displayedCard)
@@ -39,4 +39,16 @@ class QuizViewModel: ObservableObject {
     
     self.state = .displayingQuestion(imageName: displayedCard.imageName, options: buttonOptions)
   }
+  
+  func didAnswer(with answer: String) {
+    guard case let .displayingQuestion(imageName, _) = state else { return }
+    guard let correctAnswer = displayedCard?.commonName else { return }
+    
+    if displayedCard?.commonName == answer {
+      state = .correctResponse(imageName: imageName, imageOverlayText: "Correct! This mushroom is a \(correctAnswer).")
+    } else {
+      state = .incorrectResponse(imageName: imageName, imageOverlayText: "Wrong. This mushroom is a \(correctAnswer).")
+    }
+  }
+  
 }
