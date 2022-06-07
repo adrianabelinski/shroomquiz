@@ -5,7 +5,7 @@ struct QuizView: View {
   @StateObject var viewModel = QuizViewModel()
   
   var body: some View {
-    VStack {
+    VStack() {
       if case let .displayingQuestion(imageName, buttonOptions) = viewModel.state {
         QuizImage(imageName: imageName, imageOverlayText: nil)
         
@@ -19,13 +19,24 @@ struct QuizView: View {
         }
       } else if case let .correctResponse(imageName, imageOverlayText) = viewModel.state {
         QuizImage(imageName: imageName, imageOverlayText: imageOverlayText)
+        nextButton
       } else if case let .incorrectResponse(imageName, imageOverlayText) = viewModel.state {
         QuizImage(imageName: imageName, imageOverlayText: imageOverlayText)
+        nextButton
       }
+      
+      Spacer()
     }
     .onAppear {
       viewModel.displayNewCard()
     }
+  }
+  
+  var nextButton: some View {
+    Button(action: viewModel.displayNewCard) {
+      Text("Next")
+    }
+    .buttonStyle(QuizButtonStyle())
   }
 }
 
