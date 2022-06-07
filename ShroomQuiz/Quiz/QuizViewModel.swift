@@ -31,7 +31,7 @@ class QuizViewModel: ObservableObject {
     self.displayedCard = displayedCard
     
     self.imageName = displayedCard.imageName
-    self.imageOverlayText = "Lorem Ipsum"
+    self.imageOverlayText = "Correct!"
     self.buttonOptions = buttonOptions
   }
 }

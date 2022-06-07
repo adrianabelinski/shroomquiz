@@ -9,15 +9,23 @@ struct QuizView: View {
         Image(imageName)
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .cornerRadius(10)
           .overlay {
             if let imageOverlayText = viewModel.imageOverlayText {
               VStack {
                 Spacer()
-                Text(imageOverlayText)
+                HStack {
+                  Spacer()
+                  Text(imageOverlayText)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding()
+                  Spacer()
+                }
+                .background(Color.gemGreen.opacity(0.8))
               }
             }
           }
+          .cornerRadius(10)
           .padding()
         
         ForEach(viewModel.buttonOptions, id: \.self) { buttonOption in
