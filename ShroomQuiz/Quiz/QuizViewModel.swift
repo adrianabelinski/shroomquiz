@@ -2,11 +2,18 @@ import Foundation
 
 class QuizViewModel: ObservableObject {
   
+  // MARK: - Enums
+  
+  enum State {
+    case loading
+    case displayingQuestion(imageName: String, options: [String])
+    case incorrectResponse(imageOverlayText: String)
+    case correctResponse(imageOverlayText: String)
+  }
+  
   // MARK: - Public properties
   
-  @Published var imageName: String?
-  @Published var imageOverlayText: String?
-  @Published var buttonOptions: [String] = []
+  @Published var state: State = .loading
   
   // MARK: - Private properties
   
@@ -30,8 +37,6 @@ class QuizViewModel: ObservableObject {
     
     self.displayedCard = displayedCard
     
-    self.imageName = displayedCard.imageName
-    self.imageOverlayText = "Correct!"
-    self.buttonOptions = buttonOptions
+    self.state = .displayingQuestion(imageName: displayedCard.imageName, options: buttonOptions)
   }
 }
