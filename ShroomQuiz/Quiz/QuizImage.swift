@@ -2,27 +2,33 @@ import SwiftUI
 
 struct QuizImage: View {
   
+  enum OverlayMessageType { case correct, incorrect }
+  
   let imageName: String
-  let imageOverlayText: String?
-  let imageOverlayTextBackgroundColor: Color?
+  let overlayText: String?
+  let overlayMessageType: OverlayMessageType?
   
   var body: some View {
     Image(imageName)
       .resizable()
       .aspectRatio(contentMode: .fit)
       .overlay {
-        if let imageOverlayText = imageOverlayText {
+        if let overlayText = overlayText, let overlayMessageType = overlayMessageType {
           VStack {
             Spacer()
             HStack {
               Spacer()
-              Text(imageOverlayText)
+              Text(overlayText)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .padding()
               Spacer()
             }
-            .background(imageOverlayTextBackgroundColor)
+            .background(
+              (overlayMessageType == .correct)
+                ? Color.gemGreen.opacity(0.8)
+                : Color.yellow.opacity(0.8)
+            )
           }
         }
       }

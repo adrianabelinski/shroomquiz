@@ -2,23 +2,23 @@ import Foundation
 
 class QuizViewModel: ObservableObject {
   
-  // MARK: - Enums
-  
-  enum State {
-    case loading
-    case displayingQuestion(imageName: String, options: [String])
-    case correctResponse(imageName: String, imageOverlayText: String)
-    case incorrectResponse(imageName: String, imageOverlayText: String)
-  }
-  
   // MARK: - Public properties
   
-  @Published var state: State = .loading
+  @Published var displayedImageName: String?
+  @Published var imageOverlayText: String?
+  @Published var imageOverlayMessageType: QuizImage.OverlayMessageType?
+  @Published var buttonOptions: [String]?
   
   // MARK: - Private properties
   
   private var displayedCard: Card?
   private let cardRepository = CardRepository()
+  
+  // MARK: - Init
+  
+  init() {
+    displayNewCard()
+  }
   
   // MARK: - Public methods
   
@@ -37,18 +37,25 @@ class QuizViewModel: ObservableObject {
     
     self.displayedCard = displayedCard
     
-    self.state = .displayingQuestion(imageName: displayedCard.imageName, options: buttonOptions)
+    self.displayedImageName = displayedCard.imageName
+    self.buttonOptions = buttonOptions
+    
+    self.imageOverlayText = nil
+    self.imageOverlayMessageType = nil
   }
   
   func didAnswer(with answer: String) {
-    guard case let .displayingQuestion(imageName, _) = state else { return }
     guard let correctAnswer = displayedCard?.commonName else { return }
     
     if displayedCard?.commonName == answer {
-      state = .correctResponse(imageName: imageName, imageOverlayText: "Correct! This mushroom is a \(correctAnswer).")
+      self.imageOverlayText = "Correct! This mushroom is a \(correctAnswer)."
+      self.imageOverlayMessageType = .correct
     } else {
-      state = .incorrectResponse(imageName: imageName, imageOverlayText: "Wrong. This mushroom is a \(correctAnswer).")
+      self.imageOverlayText = "Wrong. This mushroom is a \(correctAnswer)."
+      self.imageOverlayMessageType = .incorrect
     }
+    
+    self.buttonOptions = nil
   }
   
 }
