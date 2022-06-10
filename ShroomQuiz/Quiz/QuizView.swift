@@ -36,8 +36,7 @@ struct QuizView: View {
         )
         nextButton
       }
-      
-      Spacer()
+    
     }
     .onAppear {
       viewModel.displayNewCard()
@@ -48,7 +47,7 @@ struct QuizView: View {
     Button(action: viewModel.displayNewCard) {
       Text("Next")
     }
-    .buttonStyle(QuizButtonStyle())
+    .buttonStyle(NextButtonStyle())
   }
 }
 

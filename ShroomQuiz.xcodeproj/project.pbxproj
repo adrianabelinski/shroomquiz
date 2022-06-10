@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
 		C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D5E283EE41C00ADE3F9 /* AboutView.swift */; };
 		C6841D65283EE6A200ADE3F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D64283EE6A200ADE3F9 /* Card.swift */; };
 		C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D66283EE7C600ADE3F9 /* CardRepository.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C6841D64283EE6A200ADE3F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C6841D66283EE7C600ADE3F9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				C6CAE115284EE86D0010F29D /* QuizImage.swift */,
 				C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */,
 				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
+				C6133E802853F8B600B27976 /* NextButtonStyle.swift */,
 				C6841D64283EE6A200ADE3F9 /* Card.swift */,
 				C6841D66283EE7C600ADE3F9 /* CardRepository.swift */,
 			);
@@ -190,6 +193,7 @@
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
 				C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */,
+				C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */,
 				C6CAE116284EE86D0010F29D /* QuizImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
