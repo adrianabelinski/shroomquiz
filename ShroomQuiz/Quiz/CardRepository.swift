@@ -1,7 +1,7 @@
 import UIKit
 
 struct CardRepository {
-  let cards: Set<Card> = [
+  let cards: Set<Card> = [ //Set has only unique items and order doesn't matter
     Card(scientificName: "Amanita muscaria", commonName: "Fly Agaric", imageName: "fly-agaric"),
     Card(scientificName: "Pleurotus ostreatus", commonName: "Oyster Mushroom", imageName: "oyster-mushroom"),
     Card(scientificName: "Morchella", commonName: "Morel Mushroom", imageName: "morel-mushroom"),
@@ -20,7 +20,7 @@ struct CardRepository {
     Card(scientificName: "Armillaria mellea", commonName: "Honey Fungus", imageName: "honey-fungus")
   ]
   
-  init() {
+  init() { 
     // Checks for missing images and return a fatal error for a missing image.
     for card in cards {
       if UIImage(named: card.imageName) == nil {
