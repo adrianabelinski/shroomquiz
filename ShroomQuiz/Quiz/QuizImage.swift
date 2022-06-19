@@ -24,9 +24,18 @@ struct QuizImage: View {
   }
   
   var favoriteButton: some View {
-    Button(action: favoriteButtonAction, label: {
-      Image(systemName: "star")
-    })
+    VStack {
+      HStack {
+        Spacer()
+        Button(action: favoriteButtonAction) {
+          Image(systemName: "star")
+            .font(.title)
+            .padding()
+        }
+        .tint(.white)
+      }
+      Spacer()
+    }
   }
   
   var overlayTextView: some View {
