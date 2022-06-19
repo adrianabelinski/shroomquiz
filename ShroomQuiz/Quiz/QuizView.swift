@@ -27,6 +27,7 @@ struct QuizView: View {
         }
       }
     }
+    .navigationTitle("Quiz")
   }
   
   var nextButton: some View {

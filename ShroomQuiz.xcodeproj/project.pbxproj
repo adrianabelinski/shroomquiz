@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
+		C6133E842856741A00B27976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E832856741A00B27976 /* HomeView.swift */; };
 		C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D5E283EE41C00ADE3F9 /* AboutView.swift */; };
 		C6841D65283EE6A200ADE3F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D64283EE6A200ADE3F9 /* Card.swift */; };
 		C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D66283EE7C600ADE3F9 /* CardRepository.swift */; };
 		C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */; };
+		C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910ED7285FE3E900941BED /* FavoritesView.swift */; };
+		C6910EDB285FE44100941BED /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910EDA285FE44100941BED /* ReviewView.swift */; };
 		C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222A28399F2C0000B820 /* ShroomQuizApp.swift */; };
 		C691222D28399F2C0000B820 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222C28399F2C0000B820 /* QuizView.swift */; };
 		C691222F28399F2E0000B820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691222E28399F2E0000B820 /* Assets.xcassets */; };
@@ -23,10 +26,13 @@
 
 /* Begin PBXFileReference section */
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
+		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C6841D64283EE6A200ADE3F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C6841D66283EE7C600ADE3F9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
 		C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		C6910ED7285FE3E900941BED /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		C6910EDA285FE44100941BED /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		C691222728399F2C0000B820 /* ShroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C691222A28399F2C0000B820 /* ShroomQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomQuizApp.swift; sourceTree = "<group>"; };
 		C691222C28399F2C0000B820 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6133E822856740300B27976 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C6133E832856741A00B27976 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		C6841D60283EE62200ADE3F9 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +92,22 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		C6910ED6285FE3C900941BED /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				C6910ED7285FE3E900941BED /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		C6910ED9285FE42E00941BED /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				C6910EDA285FE44100941BED /* ReviewView.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
 		C691221E28399F2C0000B820 = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
+				C6133E822856740300B27976 /* Home */,
 				C6841D60283EE62200ADE3F9 /* Quiz */,
+				C6910ED6285FE3C900941BED /* Favorites */,
+				C6910ED9285FE42E00941BED /* Review */,
 				C6841D61283EE63400ADE3F9 /* About */,
 				C6841D63283EE65500ADE3F9 /* Shared */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
@@ -190,9 +223,12 @@
 				C691223D2839A6F40000B820 /* Color+.swift in Sources */,
 				C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
+				C6910EDB285FE44100941BED /* ReviewView.swift in Sources */,
+				C6133E842856741A00B27976 /* HomeView.swift in Sources */,
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
 				C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */,
+				C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */,
 				C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */,
 				C6CAE116284EE86D0010F29D /* QuizImage.swift in Sources */,
 			);
