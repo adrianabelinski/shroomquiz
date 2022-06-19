@@ -10,7 +10,8 @@ struct QuizView: View {
         QuizImage(
           imageName: displayedImageName,
           overlayText: viewModel.imageOverlayText,
-          overlayMessageType: viewModel.imageOverlayMessageType
+          overlayMessageType: viewModel.imageOverlayMessageType,
+          favoriteButtonAction: {}
         )
         
         if let buttonOptions = viewModel.buttonOptions {

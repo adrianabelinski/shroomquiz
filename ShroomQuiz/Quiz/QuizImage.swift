@@ -7,16 +7,26 @@ struct QuizImage: View {
   let imageName: String
   let overlayText: String?
   let overlayMessageType: OverlayMessageType?
+  let favoriteButtonAction: () -> Void
   
   var body: some View {
     Image(imageName)
       .resizable()
       .aspectRatio(contentMode: .fit)
       .overlay {
-        overlayTextView
+        ZStack {
+          favoriteButton
+          overlayTextView
+        }
       }
       .cornerRadius(10)
       .padding()
+  }
+  
+  var favoriteButton: some View {
+    Button(action: favoriteButtonAction, label: {
+      Image(systemName: "star")
+    })
   }
   
   var overlayTextView: some View {
