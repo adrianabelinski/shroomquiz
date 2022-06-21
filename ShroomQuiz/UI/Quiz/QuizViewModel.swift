@@ -14,6 +14,7 @@ class QuizViewModel: ObservableObject {
   
   private var displayedCard: Card?
   private let cardRepository = CardRepository()
+  private let favoritesProvider = FavoritesProvider()
   
   // MARK: - Init
   
@@ -43,6 +44,8 @@ class QuizViewModel: ObservableObject {
     
     self.imageOverlayText = nil
     self.imageOverlayMessageType = nil
+    
+    self.isFavorited = favoritesProvider.isFavorited(card: displayedCard)
   }
   
   func didAnswer(with answer: String) {
@@ -60,6 +63,16 @@ class QuizViewModel: ObservableObject {
   }
   
   func didPressFavoriteButton() {
-    isFavorited.toggle()
+    guard let displayedCard = displayedCard else {
+      return
+    }
+
+    if favoritesProvider.isFavorited(card: displayedCard) {
+      favoritesProvider.unfavorite(card: displayedCard)
+    } else {
+      favoritesProvider.favorite(card: displayedCard)
+    }
+    
+    isFavorited = favoritesProvider.isFavorited(card: displayedCard)
   }
 }

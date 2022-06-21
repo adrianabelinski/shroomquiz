@@ -15,6 +15,7 @@
 		C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */; };
 		C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910ED7285FE3E900941BED /* FavoritesView.swift */; };
 		C6910EDB285FE44100941BED /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910EDA285FE44100941BED /* ReviewView.swift */; };
+		C6910F042861560400941BED /* FavoritesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910F032861560400941BED /* FavoritesProvider.swift */; };
 		C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222A28399F2C0000B820 /* ShroomQuizApp.swift */; };
 		C691222D28399F2C0000B820 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222C28399F2C0000B820 /* QuizView.swift */; };
 		C691222F28399F2E0000B820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691222E28399F2E0000B820 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 		C6910ED7285FE3E900941BED /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		C6910EDA285FE44100941BED /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		C6910F032861560400941BED /* FavoritesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesProvider.swift; sourceTree = "<group>"; };
 		C691222728399F2C0000B820 /* ShroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C691222A28399F2C0000B820 /* ShroomQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomQuizApp.swift; sourceTree = "<group>"; };
 		C691222C28399F2C0000B820 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -70,8 +72,6 @@
 				C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */,
 				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
 				C6133E802853F8B600B27976 /* NextButtonStyle.swift */,
-				C6841D64283EE6A200ADE3F9 /* Card.swift */,
-				C6841D66283EE7C600ADE3F9 /* CardRepository.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -121,6 +121,16 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		C6910F02286155E400941BED /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C6841D64283EE6A200ADE3F9 /* Card.swift */,
+				C6841D66283EE7C600ADE3F9 /* CardRepository.swift */,
+				C6910F032861560400941BED /* FavoritesProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		C691221E28399F2C0000B820 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
 				C6910F01286155C500941BED /* UI */,
+				C6910F02286155E400941BED /* Data */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
 				C691223028399F2E0000B820 /* Preview Content */,
 			);
@@ -232,6 +243,7 @@
 				C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
 				C6910EDB285FE44100941BED /* ReviewView.swift in Sources */,
+				C6910F042861560400941BED /* FavoritesProvider.swift in Sources */,
 				C6133E842856741A00B27976 /* HomeView.swift in Sources */,
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
