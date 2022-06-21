@@ -108,6 +108,19 @@
 			path = Review;
 			sourceTree = "<group>";
 		};
+		C6910F01286155C500941BED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C6133E822856740300B27976 /* Home */,
+				C6841D60283EE62200ADE3F9 /* Quiz */,
+				C6910ED6285FE3C900941BED /* Favorites */,
+				C6910ED9285FE42E00941BED /* Review */,
+				C6841D61283EE63400ADE3F9 /* About */,
+				C6841D63283EE65500ADE3F9 /* Shared */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C691221E28399F2C0000B820 = {
 			isa = PBXGroup;
 			children = (
@@ -128,12 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
-				C6133E822856740300B27976 /* Home */,
-				C6841D60283EE62200ADE3F9 /* Quiz */,
-				C6910ED6285FE3C900941BED /* Favorites */,
-				C6910ED9285FE42E00941BED /* Review */,
-				C6841D61283EE63400ADE3F9 /* About */,
-				C6841D63283EE65500ADE3F9 /* Shared */,
+				C6910F01286155C500941BED /* UI */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
 				C691223028399F2E0000B820 /* Preview Content */,
 			);
