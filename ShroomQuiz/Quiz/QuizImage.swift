@@ -29,7 +29,7 @@ struct QuizImage: View {
         Spacer()
         Button(action: favoriteButtonAction) {
           Image(systemName: "star")
-            .font(.title)
+            .font(.title.bold())
             .padding()
         }
         .tint(.white)
