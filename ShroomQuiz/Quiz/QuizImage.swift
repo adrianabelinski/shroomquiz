@@ -7,6 +7,7 @@ struct QuizImage: View {
   let imageName: String
   let overlayText: String?
   let overlayMessageType: OverlayMessageType?
+  let isFavorited: Bool
   let favoriteButtonAction: () -> Void
   
   var body: some View {
@@ -28,7 +29,7 @@ struct QuizImage: View {
       HStack {
         Spacer()
         Button(action: favoriteButtonAction) {
-          Image(systemName: "star")
+          Image(systemName: isFavorited ? "star.fill" : "star")
             .font(.title.bold())
             .padding()
         }

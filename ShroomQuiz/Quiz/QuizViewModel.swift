@@ -8,6 +8,7 @@ class QuizViewModel: ObservableObject {
   @Published var imageOverlayText: String?
   @Published var imageOverlayMessageType: QuizImage.OverlayMessageType?
   @Published var buttonOptions: [String]?
+  @Published var isFavorited = false
   
   // MARK: - Private properties
   
@@ -59,6 +60,6 @@ class QuizViewModel: ObservableObject {
   }
   
   func didPressFavoriteButton() {
-    print("Pressed Favorite Button")
+    isFavorited.toggle()
   }
 }
