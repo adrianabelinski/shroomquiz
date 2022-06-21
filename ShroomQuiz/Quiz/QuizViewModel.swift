@@ -58,4 +58,7 @@ class QuizViewModel: ObservableObject {
     self.buttonOptions = nil
   }
   
+  func didPressFavoriteButton() {
+    print("Pressed Favorite Button")
+  }
 }
