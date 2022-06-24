@@ -1,9 +1,19 @@
 import SwiftUI
 
 struct FavoritesView: View {
+  
+  @StateObject var viewModel = FavoritesViewModel()
+  
   var body: some View {
-    Text("My Favorites")
-      .navigationTitle("Favorites")
+    ScrollView {
+      ForEach(viewModel.displayedCards) { card in
+        Text(card.commonName)
+      }
+    }
+    .onAppear() {
+      viewModel.updateDisplayedCards()
+    }
+    .navigationTitle("Favorites")
   }
 }
 
