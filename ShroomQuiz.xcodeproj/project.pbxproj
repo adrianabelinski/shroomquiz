@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
 		C6133E842856741A00B27976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E832856741A00B27976 /* HomeView.swift */; };
+		C637D501286942BE00E109D5 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637D500286942BE00E109D5 /* CardRow.swift */; };
 		C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D5E283EE41C00ADE3F9 /* AboutView.swift */; };
 		C6841D65283EE6A200ADE3F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D64283EE6A200ADE3F9 /* Card.swift */; };
 		C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D66283EE7C600ADE3F9 /* CardRepository.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C637D500286942BE00E109D5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
 		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C6841D64283EE6A200ADE3F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C6841D66283EE7C600ADE3F9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				C691223C2839A6F40000B820 /* Color+.swift */,
+				C637D500286942BE00E109D5 /* CardRow.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				C6910F042861560400941BED /* FavoritesProvider.swift in Sources */,
 				C6133E842856741A00B27976 /* HomeView.swift in Sources */,
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
+				C637D501286942BE00E109D5 /* CardRow.swift in Sources */,
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
 				C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */,
 				C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */,

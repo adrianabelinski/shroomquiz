@@ -7,11 +7,11 @@ struct FavoritesView: View {
   var body: some View {
     ScrollView {
       ForEach(viewModel.displayedCards) { card in
-        Text(card.commonName)
+        CardRow(card: card)
       }
     }
     .onAppear() {
-      viewModel.updateDisplayedCards()
+      viewModel.updateDisplayedCards()//sets value for displayed cards
     }
     .navigationTitle("Favorites")
   }
