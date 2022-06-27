@@ -17,6 +17,7 @@ struct HomeView: View {
           Text("Review")
         }
       }
+      .navigationTitle("ShroomQuiz")
     }
   }
 }
