@@ -11,6 +11,7 @@ struct QuizView: View {
           imageName: displayedImageName,
           overlayText: viewModel.imageOverlayText,
           overlayMessageType: viewModel.imageOverlayMessageType,
+          showingFavoriteButton: viewModel.showingFavoriteButton,
           isFavorited: viewModel.isFavorited,
           favoriteButtonAction: viewModel.didPressFavoriteButton
         )

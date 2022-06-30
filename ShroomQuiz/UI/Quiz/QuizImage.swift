@@ -7,6 +7,7 @@ struct QuizImage: View {
   let imageName: String
   let overlayText: String?
   let overlayMessageType: OverlayMessageType?
+  let showingFavoriteButton: Bool
   let isFavorited: Bool
   let favoriteButtonAction: () -> Void
   
@@ -16,7 +17,9 @@ struct QuizImage: View {
       .aspectRatio(contentMode: .fit)
       .overlay {
         ZStack {
+          if showingFavoriteButton {
           favoriteButton
+          }
           overlayTextView
         }
       }

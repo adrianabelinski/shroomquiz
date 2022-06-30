@@ -8,6 +8,7 @@ class QuizViewModel: ObservableObject {
   @Published var imageOverlayText: String?
   @Published var imageOverlayMessageType: QuizImage.OverlayMessageType?
   @Published var buttonOptions: [String]?
+  @Published var showingFavoriteButton = false
   @Published var isFavorited = false
   
   // MARK: - Private properties
@@ -25,6 +26,8 @@ class QuizViewModel: ObservableObject {
   // MARK: - Public methods
   
   func displayNewCard() {
+    showingFavoriteButton = false
+
     let displayedCard = cardRepository.getRandomCard()
     
     let wrongCards = cardRepository.wrongCards(for: displayedCard)
@@ -50,6 +53,8 @@ class QuizViewModel: ObservableObject {
   
   func didAnswer(with answer: String) {
     guard let correctAnswer = displayedCard?.commonName else { return }
+    
+    showingFavoriteButton = true
     
     if displayedCard?.commonName == answer {
       self.imageOverlayText = "Correct! This mushroom is a \(correctAnswer)."
