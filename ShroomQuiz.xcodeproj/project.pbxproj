@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C601EACC286D208B00371841 /* HomeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EACB286D208B00371841 /* HomeButtonStyle.swift */; };
 		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
 		C6133E842856741A00B27976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E832856741A00B27976 /* HomeView.swift */; };
 		C637D501286942BE00E109D5 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637D500286942BE00E109D5 /* CardRow.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C601EACB286D208B00371841 /* HomeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C637D500286942BE00E109D5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		C6133E822856740300B27976 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C601EACB286D208B00371841 /* HomeButtonStyle.swift */,
 				C6133E832856741A00B27976 /* HomeView.swift */,
 			);
 			path = Home;
@@ -257,6 +260,7 @@
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
 				C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */,
 				C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */,
+				C601EACC286D208B00371841 /* HomeButtonStyle.swift in Sources */,
 				C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */,
 				C6CAE116284EE86D0010F29D /* QuizImage.swift in Sources */,
 			);
