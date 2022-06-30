@@ -5,17 +5,18 @@ struct HomeView: View {
     NavigationView {
       VStack {
         NavigationLink(destination: QuizView()) {
-          Text("Play")
+          Text("PLAY")
         }.buttonStyle(HomeButtonStyle(buttonColor: .rubyRed))
         NavigationLink(destination: AboutView()) {
-          Text("About")
+          Text("ABOUT")
+
         }.buttonStyle(HomeButtonStyle(buttonColor: .yellow))
         NavigationLink(destination: FavoritesView()) {
-          Text("Favorites")
+          Text("FAVORITES")
         }
         .buttonStyle(HomeButtonStyle(buttonColor: .mikuBlue))
         NavigationLink(destination: ReviewView()) {
-          Text("Review")
+          Text("REVIEW")
         } .buttonStyle(HomeButtonStyle(buttonColor: .purpleGrape))
       }
       .navigationTitle("ShroomQuiz")
