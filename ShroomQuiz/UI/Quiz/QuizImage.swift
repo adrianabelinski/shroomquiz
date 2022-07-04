@@ -24,7 +24,6 @@ struct QuizImage: View {
         }
       }
       .cornerRadius(10)
-      .padding()
   }
   
   var favoriteButton: some View {

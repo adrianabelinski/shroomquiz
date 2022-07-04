@@ -4,7 +4,23 @@ struct DetailView: View {
   let viewModel: DetailViewModel
   
   var body: some View {
-    Text(viewModel.title).font(.title)
+    ScrollView {
+      VStack(alignment: .leading) {
+        Text(viewModel.scientificName)
+          .font(.title2)
+        
+        QuizImage(
+          imageName: viewModel.imageName,
+          overlayText: nil,
+          overlayMessageType: nil,
+          showingFavoriteButton: true,
+          isFavorited: true,
+          favoriteButtonAction: {}
+        )
+      }
+      .padding([.horizontal, .bottom])
+    }
+    .navigationTitle(viewModel.commonName)
   }
 }
 

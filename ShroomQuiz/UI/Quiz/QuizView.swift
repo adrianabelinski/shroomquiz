@@ -15,6 +15,7 @@ struct QuizView: View {
           isFavorited: viewModel.isFavorited,
           favoriteButtonAction: viewModel.didPressFavoriteButton
         )
+        .padding()
         
         if let buttonOptions = viewModel.buttonOptions {
           ForEach(buttonOptions, id: \.self) { buttonOption in

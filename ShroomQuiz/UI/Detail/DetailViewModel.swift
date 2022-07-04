@@ -2,8 +2,16 @@ import Foundation
 
 struct DetailViewModel {
   
-  var title: String {
+  var imageName: String {
+    card.imageName
+  }
+  
+  var commonName: String {
     card.commonName
+  }
+  
+  var scientificName: String {
+    card.scientificName
   }
   
   private let card: Card
