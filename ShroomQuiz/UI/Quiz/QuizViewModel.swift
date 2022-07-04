@@ -6,7 +6,7 @@ class QuizViewModel: ObservableObject {
   
   @Published var displayedImageName: String?
   @Published var imageOverlayText: String?
-  @Published var imageOverlayMessageType: QuizImage.OverlayMessageType?
+  @Published var imageOverlayMessageType: CardImage.OverlayMessageType?
   @Published var buttonOptions: [String]?
   @Published var showingFavoriteButton = false
   @Published var isFavorited = false

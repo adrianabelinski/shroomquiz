@@ -27,7 +27,7 @@
 		C691223228399F2E0000B820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691223128399F2E0000B820 /* Preview Assets.xcassets */; };
 		C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223A2839A5080000B820 /* QuizButtonStyle.swift */; };
 		C691223D2839A6F40000B820 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223C2839A6F40000B820 /* Color+.swift */; };
-		C6CAE116284EE86D0010F29D /* QuizImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CAE115284EE86D0010F29D /* QuizImage.swift */; };
+		C6CAE116284EE86D0010F29D /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CAE115284EE86D0010F29D /* CardImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,7 @@
 		C691223128399F2E0000B820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C691223A2839A5080000B820 /* QuizButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtonStyle.swift; sourceTree = "<group>"; };
 		C691223C2839A6F40000B820 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
-		C6CAE115284EE86D0010F29D /* QuizImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizImage.swift; sourceTree = "<group>"; };
+		C6CAE115284EE86D0010F29D /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				C691222C28399F2C0000B820 /* QuizView.swift */,
-				C6CAE115284EE86D0010F29D /* QuizImage.swift */,
 				C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */,
 				C691223A2839A5080000B820 /* QuizButtonStyle.swift */,
 				C6133E802853F8B600B27976 /* NextButtonStyle.swift */,
@@ -107,6 +106,7 @@
 		C6841D63283EE65500ADE3F9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C6CAE115284EE86D0010F29D /* CardImage.swift */,
 				C691223C2839A6F40000B820 /* Color+.swift */,
 				C637D500286942BE00E109D5 /* CardRow.swift */,
 			);
@@ -278,7 +278,7 @@
 				C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */,
 				C601EACC286D208B00371841 /* HomeButtonStyle.swift in Sources */,
 				C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */,
-				C6CAE116284EE86D0010F29D /* QuizImage.swift in Sources */,
+				C6CAE116284EE86D0010F29D /* CardImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

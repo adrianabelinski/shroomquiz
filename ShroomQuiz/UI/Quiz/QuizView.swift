@@ -7,7 +7,7 @@ struct QuizView: View {
   var body: some View {
     VStack {
       if let displayedImageName = viewModel.displayedImageName {
-        QuizImage(
+        CardImage(
           imageName: displayedImageName,
           overlayText: viewModel.imageOverlayText,
           overlayMessageType: viewModel.imageOverlayMessageType,

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct QuizImage: View {
+struct CardImage: View {
   
   enum OverlayMessageType { case correct, incorrect }
   

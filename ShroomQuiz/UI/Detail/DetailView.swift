@@ -9,7 +9,7 @@ struct DetailView: View {
         Text(viewModel.scientificName)
           .font(.title2)
         
-        QuizImage(
+        CardImage(
           imageName: viewModel.imageName,
           overlayText: nil,
           overlayMessageType: nil,
