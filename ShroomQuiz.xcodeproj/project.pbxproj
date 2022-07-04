@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C601EACC286D208B00371841 /* HomeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EACB286D208B00371841 /* HomeButtonStyle.swift */; };
+		C601EACF286E5F1C00371841 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EACE286E5F1C00371841 /* DetailView.swift */; };
+		C601EAD1286E5F5900371841 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EAD0286E5F5900371841 /* DetailViewModel.swift */; };
 		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
 		C6133E842856741A00B27976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E832856741A00B27976 /* HomeView.swift */; };
 		C637D501286942BE00E109D5 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637D500286942BE00E109D5 /* CardRow.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		C601EACB286D208B00371841 /* HomeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonStyle.swift; sourceTree = "<group>"; };
+		C601EACE286E5F1C00371841 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C601EAD0286E5F5900371841 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C637D500286942BE00E109D5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C601EACD286E5F0400371841 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C601EACE286E5F1C00371841 /* DetailView.swift */,
+				C601EAD0286E5F5900371841 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		C6133E822856740300B27976 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +133,7 @@
 		C6910F01286155C500941BED /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C601EACD286E5F0400371841 /* Detail */,
 				C6133E822856740300B27976 /* Home */,
 				C6841D60283EE62200ADE3F9 /* Quiz */,
 				C6910ED6285FE3C900941BED /* Favorites */,
@@ -255,6 +269,8 @@
 				C6910EDB285FE44100941BED /* ReviewView.swift in Sources */,
 				C6910F042861560400941BED /* FavoritesProvider.swift in Sources */,
 				C6133E842856741A00B27976 /* HomeView.swift in Sources */,
+				C601EACF286E5F1C00371841 /* DetailView.swift in Sources */,
+				C601EAD1286E5F5900371841 /* DetailViewModel.swift in Sources */,
 				C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */,
 				C637D501286942BE00E109D5 /* CardRow.swift in Sources */,
 				C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */,
