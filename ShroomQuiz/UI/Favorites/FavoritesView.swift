@@ -7,8 +7,9 @@ struct FavoritesView: View {
   var body: some View {
     ScrollView {
       ForEach(viewModel.displayedCards) { card in
-        NavigationLink(destination: DetailView(viewModel: DetailViewModel(card: card)), label: {
-          CardRow(card: card)})
+        NavigationLink(destination: DetailView(viewModel: DetailViewModel(card: card))) {
+          CardRow(card: card)
+        }
       }
     }
     .onAppear() {

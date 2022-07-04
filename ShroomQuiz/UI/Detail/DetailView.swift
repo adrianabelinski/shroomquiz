@@ -8,8 +8,8 @@ struct DetailView: View {
   }
 }
 
-//struct DetailView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    DetailView()
-//  }
-//}
+struct DetailView_Previews: PreviewProvider {
+  static var previews: some View {
+    DetailView(viewModel: DetailViewModel(card: CardRepository().cards.first!))
+  }
+}
