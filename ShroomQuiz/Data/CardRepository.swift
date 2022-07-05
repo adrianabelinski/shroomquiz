@@ -5,82 +5,98 @@ struct CardRepository {
     Card(
       scientificName: "Amanita muscaria",
       commonName: "Fly Agaric",
-      imageName: "fly-agaric"
+      imageName: "fly-agaric",
+      edible: false
     ),
     Card(
       scientificName: "Pleurotus ostreatus",
       commonName: "Oyster Mushroom",
-      imageName: "oyster-mushroom"
+      imageName: "oyster-mushroom",
+      edible: true
     ),
     Card(
       scientificName: "Morchella",
       commonName: "Morel Mushroom",
-      imageName: "morel-mushroom"
+      imageName: "morel-mushroom",
+      edible: true
     ),
     Card(
       scientificName: "Laetiporus",
       commonName: "Chicken of the Woods",
-      imageName: "chicken-of-the-woods"
+      imageName: "chicken-of-the-woods",
+      edible: true
     ),
     Card(
       scientificName: "Cantharellus",
       commonName: "Chanterelle",
-      imageName: "chanterelle"
+      imageName: "chanterelle",
+      edible: true
     ),
     Card(
       scientificName: "Trametes versicolor",
       commonName: "Turkey Tail",
-      imageName: "turkey-tail"
+      imageName: "turkey-tail",
+      edible: true
     ),
     Card(
       scientificName: "Ramaria stricta",
       commonName: "Coral Fungus",
-      imageName: "coral-fungus"
+      imageName: "coral-fungus",
+      edible: true
     ),
     Card(
       scientificName: "Auricularia auricula-judae",
       commonName: "Woods Ear",
-      imageName: "woods-ear"
+      imageName: "woods-ear",
+      edible: true
     ),
     Card(
       scientificName: "Astraeus hygrometricus",
       commonName: "Earthstar Mushroom",
-      imageName: "earth-star"
+      imageName: "earth-star",
+      edible: false
     ),
     Card(
       scientificName: "Coprinopsis atramentaria",
       commonName: "Inky Cap",
-      imageName: "inky-cap"
+      imageName: "inky-cap",
+      edible: false
     ),
     Card(
       scientificName: "Boletus edulis",
       commonName: "Porcini",
-      imageName: "porcini"
+      imageName: "porcini",
+      edible: false
     ),
     Card(
       scientificName: "Cerioporus squamosus",
       commonName: "Pheasant Back",
-      imageName: "pheasant-back"
+      imageName: "pheasant-back",
+      edible: true
     ),
     Card(
       scientificName: "Phallus indusiatus",
       commonName: "Bridal Veil Stinkhorn",
-      imageName: "bridal-veil-stinkhorn"
+      imageName: "bridal-veil-stinkhorn",
+      edible: true
     ),
     Card(
       scientificName: "Flammulina velutipes",
       commonName: "Enoki",
-      imageName: "enoki"
+      imageName: "enoki",
+      edible: true
     ),
     Card(
       scientificName: "Lycoperdon perlatum",
       commonName: "Common Puffball",
-      imageName: "common-puffball"
+      imageName: "common-puffball",
+      edible: true
     ),
     Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
-      imageName: "honey-fungus"
+      imageName: "honey-fungus",
+      edible: true
     )
   ]
   

@@ -7,7 +7,7 @@ struct CardImage: View {
   let imageName: String
   let overlayText: String?
   let overlayMessageType: OverlayMessageType?
-  let showingFavoriteButton: Bool
+  let showingDetailIcons: Bool
   let isFavorited: Bool
   let favoriteButtonAction: () -> Void
   
@@ -17,8 +17,8 @@ struct CardImage: View {
       .aspectRatio(contentMode: .fit)
       .overlay {
         ZStack {
-          if showingFavoriteButton {
-          favoriteButton
+          if showingDetailIcons {
+            detailIcons
           }
           overlayTextView
         }
@@ -26,16 +26,23 @@ struct CardImage: View {
       .cornerRadius(10)
   }
   
-  var favoriteButton: some View {
+  var detailIcons: some View {
     VStack {
       HStack {
         Spacer()
-        Button(action: favoriteButtonAction) {
-          Image(systemName: isFavorited ? "star.fill" : "star")
+        
+        HStack {
+          Image(systemName: "fork.knife.circle.fill")
             .font(.title.bold())
-            .padding()
+            .foregroundColor(.white)
+          
+          Button(action: favoriteButtonAction) {
+            Image(systemName: isFavorited ? "star.fill" : "star")
+              .font(.title.bold())
+          }
+          .tint(.white)
         }
-        .tint(.white)
+        .padding()
       }
       Spacer()
     }

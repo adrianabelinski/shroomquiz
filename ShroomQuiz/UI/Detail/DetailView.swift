@@ -13,7 +13,7 @@ struct DetailView: View {
           imageName: viewModel.imageName,
           overlayText: nil,
           overlayMessageType: nil,
-          showingFavoriteButton: true,
+          showingDetailIcons: true,
           isFavorited: true,
           favoriteButtonAction: {}
         )

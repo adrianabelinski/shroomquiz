@@ -6,4 +6,5 @@ struct Card: Hashable, Identifiable {
   let scientificName: String
   let commonName: String
   let imageName: String
+  let edible: Bool
 }
