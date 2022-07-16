@@ -18,7 +18,7 @@ struct CardRow: View {
 
 struct CardRow_Previews: PreviewProvider {
   static var previews: some View {
-    CardRow(card: Card(scientificName: "Amanita muscaria", commonName: "Fly Agaric", imageName: "fly-agaric", edible: false))
+    CardRow(card: Card(scientificName: "Amanita muscaria", commonName: "Fly Agaric", imageName: "fly-agaric", edible: false, description: "TODO", wikipediaUrlString: "TODO"))
       .previewLayout(.sizeThatFits)
   }
 }

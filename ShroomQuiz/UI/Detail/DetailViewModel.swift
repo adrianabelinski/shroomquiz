@@ -14,6 +14,14 @@ struct DetailViewModel {
     card.scientificName
   }
   
+  var description: String {
+    card.description
+  }
+  
+  var wikipediaUrlString: String {
+    card.wikipediaUrlString
+  }
+  
   private let card: Card
   
   init(card: Card) {

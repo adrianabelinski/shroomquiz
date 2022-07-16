@@ -8,7 +8,8 @@ struct DetailView: View {
       VStack(alignment: .leading) {
         Text(viewModel.scientificName)
           .font(.title2)
-        
+          .foregroundColor(.textGrey)
+
         CardImage(
           imageName: viewModel.imageName,
           overlayText: nil,
@@ -17,6 +18,16 @@ struct DetailView: View {
           isFavorited: true,
           favoriteButtonAction: {}
         )
+        
+        Text(viewModel.description)
+        //  .multilineTextAlignment(.center)
+          .lineSpacing(1)
+          .font(Font.custom("Helvetica", size: 20, relativeTo: .title3))
+          .padding(.horizontal, 10)
+          .padding(.vertical, 10)
+          .foregroundColor(.textGrey)
+        
+        //Text(viewModel.wikipediaUrlString)
       }
       .padding([.horizontal, .bottom])
     }
