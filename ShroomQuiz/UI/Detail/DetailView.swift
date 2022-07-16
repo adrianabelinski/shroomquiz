@@ -28,7 +28,17 @@ struct DetailView: View {
           .foregroundColor(.textGrey)
 
         Button(action: viewModel.openWikipedia, label: {
-          Text("Wikipedia")
+          HStack {
+            Spacer()
+            Text("Wikipedia")
+              .font(.title2)
+              .frame(width: 300, height: 50, alignment: .center)
+              .background(Color.gemGreen)
+              .foregroundColor(Color.black)
+              .cornerRadius(10)
+              .padding(7)
+           Spacer()
+          }
         })
       }
       .padding([.horizontal, .bottom])
