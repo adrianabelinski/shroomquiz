@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 struct DetailViewModel {
   
@@ -18,14 +19,17 @@ struct DetailViewModel {
     card.description
   }
   
-  var wikipediaUrlString: String {
-    card.wikipediaUrlString
-  }
-  
   private let card: Card
   
   init(card: Card) {
     self.card = card
   }
   
+  func openWikipedia() {
+    if let wikipediaUrl = URL(string: card.wikipediaUrlString) {
+      UIApplication.shared.open(wikipediaUrl)
+    } else {
+      print("Invalid Url")
+    }
+  }
 }

@@ -8,7 +8,7 @@ struct CardRepository {
       imageName: "fly-agaric",
       edible: false,
       description: "Amanita muscaria, commonly known as the fly agaric or fly amanita,[5] is a basidiomycete of the genus Amanita. Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom. Although poisonous, death due to poisoning from A. muscaria ingestion is quite rare",
-      wikipediaUrlString: "TODO"
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Amanita_muscaria"
     ),
     Card(
       scientificName: "Pleurotus ostreatus",

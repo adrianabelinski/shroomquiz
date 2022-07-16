@@ -26,8 +26,10 @@ struct DetailView: View {
           .padding(.horizontal, 10)
           .padding(.vertical, 10)
           .foregroundColor(.textGrey)
-        
-        //Text(viewModel.wikipediaUrlString)
+
+        Button(action: viewModel.openWikipedia, label: {
+          Text("Wikipedia")
+        })
       }
       .padding([.horizontal, .bottom])
     }
