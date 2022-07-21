@@ -15,8 +15,8 @@ struct HomeView: View {
           Text("FAVORITES")
         }
         .buttonStyle(HomeButtonStyle(buttonColor: .mikuBlue))
-        NavigationLink(destination: ReviewView()) {
-          Text("REVIEW")
+        NavigationLink(destination: CatalogView()) {
+          Text("CATALOG")
         } .buttonStyle(HomeButtonStyle(buttonColor: .purpleGrape))
       }
       .navigationTitle("ShroomQuiz")

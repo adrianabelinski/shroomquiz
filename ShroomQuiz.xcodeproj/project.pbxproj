@@ -12,13 +12,14 @@
 		C601EAD1286E5F5900371841 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EAD0286E5F5900371841 /* DetailViewModel.swift */; };
 		C6133E812853F8B600B27976 /* NextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E802853F8B600B27976 /* NextButtonStyle.swift */; };
 		C6133E842856741A00B27976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6133E832856741A00B27976 /* HomeView.swift */; };
+		C6269729288A117500F0BF78 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6269728288A117500F0BF78 /* CatalogViewModel.swift */; };
 		C637D501286942BE00E109D5 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637D500286942BE00E109D5 /* CardRow.swift */; };
 		C6841D5F283EE41C00ADE3F9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D5E283EE41C00ADE3F9 /* AboutView.swift */; };
 		C6841D65283EE6A200ADE3F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D64283EE6A200ADE3F9 /* Card.swift */; };
 		C6841D67283EE7C600ADE3F9 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D66283EE7C600ADE3F9 /* CardRepository.swift */; };
 		C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */; };
 		C6910ED8285FE3E900941BED /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910ED7285FE3E900941BED /* FavoritesView.swift */; };
-		C6910EDB285FE44100941BED /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910EDA285FE44100941BED /* ReviewView.swift */; };
+		C6910EDB285FE44100941BED /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910EDA285FE44100941BED /* CatalogView.swift */; };
 		C6910F042861560400941BED /* FavoritesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910F032861560400941BED /* FavoritesProvider.swift */; };
 		C6910F06286634BB00941BED /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6910F05286634BA00941BED /* FavoritesViewModel.swift */; };
 		C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691222A28399F2C0000B820 /* ShroomQuizApp.swift */; };
@@ -36,13 +37,14 @@
 		C601EAD0286E5F5900371841 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C6269728288A117500F0BF78 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
 		C637D500286942BE00E109D5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
 		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C6841D64283EE6A200ADE3F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C6841D66283EE7C600ADE3F9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
 		C6841D6A28418EC400ADE3F9 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 		C6910ED7285FE3E900941BED /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		C6910EDA285FE44100941BED /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		C6910EDA285FE44100941BED /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		C6910F032861560400941BED /* FavoritesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesProvider.swift; sourceTree = "<group>"; };
 		C6910F05286634BA00941BED /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		C691222728399F2C0000B820 /* ShroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,12 +124,13 @@
 			path = Favorites;
 			sourceTree = "<group>";
 		};
-		C6910ED9285FE42E00941BED /* Review */ = {
+		C6910ED9285FE42E00941BED /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
-				C6910EDA285FE44100941BED /* ReviewView.swift */,
+				C6910EDA285FE44100941BED /* CatalogView.swift */,
+				C6269728288A117500F0BF78 /* CatalogViewModel.swift */,
 			);
-			path = Review;
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 		C6910F01286155C500941BED /* UI */ = {
@@ -137,7 +140,7 @@
 				C6133E822856740300B27976 /* Home */,
 				C6841D60283EE62200ADE3F9 /* Quiz */,
 				C6910ED6285FE3C900941BED /* Favorites */,
-				C6910ED9285FE42E00941BED /* Review */,
+				C6910ED9285FE42E00941BED /* Catalog */,
 				C6841D61283EE63400ADE3F9 /* About */,
 				C6841D63283EE65500ADE3F9 /* Shared */,
 			);
@@ -266,8 +269,9 @@
 				C691223D2839A6F40000B820 /* Color+.swift in Sources */,
 				C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
-				C6910EDB285FE44100941BED /* ReviewView.swift in Sources */,
+				C6910EDB285FE44100941BED /* CatalogView.swift in Sources */,
 				C6910F042861560400941BED /* FavoritesProvider.swift in Sources */,
+				C6269729288A117500F0BF78 /* CatalogViewModel.swift in Sources */,
 				C6133E842856741A00B27976 /* HomeView.swift in Sources */,
 				C601EACF286E5F1C00371841 /* DetailView.swift in Sources */,
 				C601EAD1286E5F5900371841 /* DetailViewModel.swift in Sources */,
