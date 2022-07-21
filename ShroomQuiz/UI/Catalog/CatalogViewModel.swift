@@ -7,7 +7,6 @@ class CatalogViewModel: ObservableObject {
   private let cardRespository = CardRepository()
   
   func updateDisplayedCards() {
-    let allCards = Array(cardRespository.cards)
-    displayedCards = allCards
+    displayedCards = cardRespository.getAlphabetizedCards()
   }
 }

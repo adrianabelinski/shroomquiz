@@ -1,7 +1,7 @@
 import Foundation
 
 struct Card: Hashable, Identifiable {
-  let id = UUID()
+  var id: String { return scientificName }
   
   let scientificName: String
   let commonName: String

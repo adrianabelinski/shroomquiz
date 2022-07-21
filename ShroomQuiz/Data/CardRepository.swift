@@ -141,6 +141,10 @@ struct CardRepository {
     }
   }
   
+  func getAlphabetizedCards() -> [Card]  {
+    return Array(cards).sorted(by: { $0.commonName < $1.commonName })
+  }
+  
   func getRandomCard() -> Card {
     let randomIndex = Int.random(in: 0...cards.count - 1)
     let randomCard = Array(cards)[randomIndex]

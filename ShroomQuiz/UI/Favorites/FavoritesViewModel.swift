@@ -8,7 +8,7 @@ class FavoritesViewModel: ObservableObject { //FavoriteView will observe Favorit
   private let favoritesProvider = FavoritesProvider()
   
   func updateDisplayedCards() {
-    let allCards = Array(cardRespository.cards)
+    let allCards = cardRespository.getAlphabetizedCards()
     let favoritedCards = allCards.filter { card in
       favoritesProvider.isFavorited(card: card)
     }
