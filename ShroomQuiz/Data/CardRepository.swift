@@ -15,120 +15,120 @@ struct CardRepository {
       commonName: "Oyster Mushroom",
       imageName: "oyster-mushroom",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Pleurotus is a genus of gilled mushrooms which includes one of the most widely eaten mushrooms, P. ostreatus. Species of Pleurotus may be called oyster, abalone, or tree mushrooms, and are some of the most commonly cultivated edible mushrooms in the world. Pleurotus fungi have also been used in mycoremediation of pollutants, such as petroleum and polycyclic aromatic hydrocarbons.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Pleurotus"
     ),
     Card(
       scientificName: "Morchella",
       commonName: "Morel Mushroom",
       imageName: "morel-mushroom",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Morchella, the true morels, is a genus of edible sac fungi closely related to anatomically simpler cup fungi in the order Pezizales (division Ascomycota). These distinctive fungi have a honeycomb appearance due to the network of ridges with pits composing their caps. Morels are prized by gourmet cooks, particularly in Catalan and French cuisine. Due to difficulties in cultivation, commercial harvesting of wild morels has become a multimillion-dollar industry in the temperate Northern Hemisphere, in particular North America, Turkey, China, the Himalayas, India, and Pakistan where these highly prized fungi are found in abundance.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Morchella"
     ),
     Card(
       scientificName: "Laetiporus",
       commonName: "Chicken of the Woods",
       imageName: "chicken-of-the-woods",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Laetiporus is a genus of edible mushrooms found throughout much of the world. Some species, especially Laetiporus sulphureus, are commonly known as sulphur shelf, chicken of the woods, the chicken mushroom, or the chicken fungus because it is often described as tasting like and having a texture similar to that of chicken meat. The name Laetiporus means with bright pores. Individual shelves range from 5 to 25 cm (2 to 10 inches) across.  It is most commonly found on wounds of trees, mostly oak, though it is also frequently found on eucalyptus, yew, sweet chestnut, and willow, as well as conifers in some species. Laetiporus species are parasitic and produce brown rot in the host on which they grow.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Laetiporus"
     ),
     Card(
       scientificName: "Cantharellus",
       commonName: "Chanterelle",
       imageName: "chanterelle",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Cantharellus is a genus of popular edible mushrooms, commonly known as chanterelles/ˌʃæntəˈrɛl/, a name which can also refer to the type species, Cantharellus cibarius. They are mycorrhizal fungi, meaning they form symbiotic associations with plants, making them very difficult to cultivate. Caution must be used when identifying chanterelles for consumption due to lookalikes, such as the jack-o'-lantern mushroom (Omphalotus olearius and others), which can make a person very ill. Despite this, chanterelles are one of the most recognized and harvested groups of edible mushrooms.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Cantharellus"
     ),
     Card(
       scientificName: "Trametes versicolor",
       commonName: "Turkey Tail",
       imageName: "turkey-tail",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Trametes versicolor – also known as Coriolus versicolor and Polyporus versicolor – is a common polypore mushroom found throughout the world. Meaning of several colors, versicolor reliably describes this fungus that displays a variety of colors. The flesh itself is 1–3 mm thick and has a leathery texture. It commonly grows in tiled layers on in groups or rows on logs and stumps of deciduous trees, and is common in North America. The mushroom is stalkless and the cap is rust-brown or darker brown, sometimes with black zones. The pore surface is whitish to light brown, with pores round and with age twisted and labyrinthine. 3–8 pores per millimeter.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Trametes_versicolor"
     ),
     Card(
       scientificName: "Ramaria stricta",
       commonName: "Coral Fungus",
       imageName: "coral-fungus",
-      edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      edible: false,
+      description: "Ramaria stricta, commonly known as the strict-branch coral is a coral fungus of the genus Ramaria. It has a cosmopolitan distribution, and grows on dead wood, stumps, trunks, and branches of both deciduous and coniferous trees. Its fruit body is up to 10 cm (3+7⁄8 in) tall, made of multiple slender, compact, and vertical parallel branches. Its color is typically light tan to vinaceous-brown.  The fungus is inedible due to its unpleasant odor and bitter taste. The color of the fruit body is brownish to yellow, becoming paler toward extremities.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Ramaria_stricta"
     ),
     Card(
       scientificName: "Auricularia auricula-judae",
       commonName: "Woods Ear",
       imageName: "woods-ear",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Wood-ear or tree ear (Chinese: 木耳; pinyin: mù'ěr, Korean: 목이 버섯), also translated wood jellyfish or tree jellyfish (Japanese: キクラゲ, Hepburn: ki-kurage), can refer to a few similar-looking edible fungi used primarily in Chinese cuisine; these are commonly sold in Asian markets shredded and dried.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Wood_ear"
     ),
     Card(
       scientificName: "Astraeus hygrometricus",
       commonName: "Earthstar Mushroom",
       imageName: "earth-star",
       edible: false,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Astraeus hygrometricus, commonly known as the hygroscopic earthstar, the barometer earthstar, or the false earthstar, is a species of fungus in the family Diplocystaceae. Young specimens resemble a puffball when unopened. In maturity, the mushroom displays the characteristic earthstar shape that is a result of the outer layer of fruit body tissue splitting open in a star-like manner.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Astraeus_hygrometricus"
     ),
     Card(
       scientificName: "Coprinopsis atramentaria",
       commonName: "Inky Cap",
       imageName: "inky-cap",
       edible: false,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Coprinopsis atramentaria, commonly known as the common ink cap or inky cap, is an edible (although poisonous, when combined with alcohol) mushroom found in Europe and North America. Previously known as Coprinus atramentarius, it is the second best known ink cap and previous member of the genus Coprinus after C. comatus. It is a widespread and common fungus found throughout the northern hemisphere. Clumps of mushrooms arise after rain from spring to autumn, commonly in urban and disturbed habitats such as vacant lots and lawns, as well as grassy areas. The grey-brown cap is initially bell-shaped before opening, after which it flattens and disintegrates. The flesh is thin and the taste mild. It can be eaten but is poisonous when consumed with alcohol – hence another common name, tippler's bane.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Coprinopsis_atramentaria"
     ),
     Card(
       scientificName: "Boletus edulis",
       commonName: "Porcini",
       imageName: "porcini",
       edible: false,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "The fungus grows in deciduous and coniferous forests and tree plantations, forming symbiotic ectomycorrhizal associations with living trees by enveloping the tree's underground roots with sheaths of fungal tissue. The fungus produces spore-bearing fruit bodies above ground in summer and autumn. The fruit body has a large brown cap which on occasion can reach 30 cm (12 in), rarely 40 cm (16 in) in diameter and 3 kg (6 lb 10 oz) in weight. Like other boletes, it has tubes extending downward from the underside of the cap, rather than gills; spores escape at maturity through the tube openings, or pores. Prized as an ingredient in various culinary dishes, B. edulis is an edible mushroom held in high regard in many cuisines, and is commonly prepared and eaten in soups, pasta, or risotto.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Boletus_edulis"
     ),
     Card(
       scientificName: "Cerioporus squamosus",
       commonName: "Pheasant Back",
       imageName: "pheasant-back",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Cerioporus squamosus aka Polyporus squamosus is a basidiomycete bracket fungus, with common names including dryad's saddle and pheasant's back mushroom.[2] It has a widespread distribution, being found in North America, Australia, Asia, and Europe, where it causes a white rot in the heartwood of living and dead hardwood trees. The name dryad's saddle refers to creatures in Greek mythology called dryads who could conceivably fit and ride on this mushroom, whereas the pheasant's back analogy derives from the pattern of colors on the bracket matching that of a pheasant's back. ",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Cerioporus_squamosus"
     ),
     Card(
       scientificName: "Phallus indusiatus",
       commonName: "Bridal Veil Stinkhorn",
       imageName: "bridal-veil-stinkhorn",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Phallus indusiatus, commonly called the bamboo mushrooms, bamboo pith, long net stinkhorn, crinoline stinkhorn or veiled lady, is a fungus in the family Phallaceae, or stinkhorns. It has a cosmopolitan distribution in tropical areas, and is found in southern Asia, Africa, the Americas, and Australia, where it grows in woodlands and gardens in rich soil and well-rotted woody material. The cap is covered with a greenish-brown spore-containing slime, which attracts flies and other insects that eat the spores and disperse them. An edible mushroom featured as an ingredient in Chinese haute cuisine, it is used in stir-fries and chicken soups. The mushroom, grown commercially and commonly sold in Asian markets, is rich in protein, carbohydrates, and dietary fiber.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Phallus_indusiatus"
     ),
     Card(
-      scientificName: "Flammulina velutipes",
+      scientificName: "Flammulina filiformis",
       commonName: "Enoki",
       imageName: "enoki",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Flammulina filiformis is a species of agaric (gilled mushroom) in the family Physalacriaceae. It is well known for its role in Japanese cuisine, where it is called enokitake and is widely cultivated in east Asia. Cultivated enokitake are not exposed to light, resulting in white or pallid fruitbodies with long stipes and small caps. The fungus is found on dead wood of Betula platyphylla, Broussonetia papyrifera, Dipentodon sinicus, Neolitsea sp., Salix spp, and other broad-leaved trees. It grows naturally in China, Korea, and Japan.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Flammulina_filiformis"
     ),
     Card(
       scientificName: "Lycoperdon perlatum",
       commonName: "Common Puffball",
       imageName: "common-puffball",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Lycoperdon perlatum, popularly known as the common puffball, warted puffball, gem-studded puffball, wolf farts or the devil's snuff-box, is a species of puffball fungus in the family Agaricaceae.  It is off-white with a top covered in short spiny bumps or jewels, which are easily rubbed off to leave a netlike pattern on the surface. When mature it becomes brown, and a hole in the top opens to release spores in a burst when the body is compressed by touch or falling raindrops. The puffball grows in fields, gardens, and along roadsides, as well as in grassy clearings in woods. It is edible when young and the internal flesh is completely white, although care must be taken to avoid confusion with immature fruit bodies of poisonous Amanita species.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Lycoperdon_perlatum"
     ),
     Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
       imageName: "honey-fungus",
       edible: true,
-      description: "TODO",
-      wikipediaUrlString: "TODO"
+      description: "Armillaria mellea, commonly known as honey fungus, is a basidiomycete fungus in the genus Armillaria. The mushrooms are edible but some people may be intolerant to them. This species is capable of producing light via bioluminescence in its mycelium. Armillaria mellea is widely distributed in temperate regions of the Northern Hemisphere. The fruit body or mushroom, commonly known as stump mushroom, stumpie, honey mushroom, pipinky or pinky, grows typically on hardwoods but may be found around and on other living and dead wood or in open areas.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Armillaria_mellea"
     )
   ]
   
