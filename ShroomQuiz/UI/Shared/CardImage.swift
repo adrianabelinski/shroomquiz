@@ -41,6 +41,7 @@ struct CardImage: View {
               .font(.title.bold())
           }
           .tint(.appYellow)
+          .shadow(color: .black.opacity(0.5), radius: 3, x: 1, y: 1)
         }
         .padding()
       }
