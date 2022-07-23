@@ -3,11 +3,8 @@ import UIKit
 
 
 struct DetailViewModel {
-  private let favoritesProvider = FavoritesProvider()
-
-  var isFavorited: Bool {
-    favoritesProvider.isFavorited(card: card)
-  }
+  
+  // MARK: - Public properties
   
   var imageName: String { //Type notation
     card.imageName
@@ -21,15 +18,27 @@ struct DetailViewModel {
     card.scientificName
   }
   
+  var isFavorited: Bool {
+    favoritesProvider.isFavorited(card: card)
+  }
+  
   var description: String {
     card.description
   }
   
+  // MARK: - Private properties
+  
   private let card: Card
+  
+  private let favoritesProvider = FavoritesProvider()
+  
+  // MARK: - Init
   
   init(card: Card) {
     self.card = card
   }
+  
+  // MARK: - Public methods
   
   func openWikipedia() {
     if let wikipediaUrl = URL(string: card.wikipediaUrlString) {
