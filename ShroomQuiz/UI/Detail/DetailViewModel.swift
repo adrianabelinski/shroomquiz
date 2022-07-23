@@ -1,8 +1,7 @@
 import Foundation
 import UIKit
 
-
-struct DetailViewModel {
+class DetailViewModel: ObservableObject {
   
   // MARK: - Public properties
   
@@ -18,9 +17,7 @@ struct DetailViewModel {
     card.scientificName
   }
   
-  var isFavorited: Bool {
-    favoritesProvider.isFavorited(card: card)
-  }
+  @Published var isFavorited: Bool
   
   var description: String {
     card.description
@@ -36,9 +33,20 @@ struct DetailViewModel {
   
   init(card: Card) {
     self.card = card
+    isFavorited = favoritesProvider.isFavorited(card: card)
   }
   
   // MARK: - Public methods
+  
+  func didPressFavoriteButton() {
+    if favoritesProvider.isFavorited(card: card) {
+      favoritesProvider.unfavorite(card: card)
+    } else {
+      favoritesProvider.favorite(card: card)
+    }
+    
+    isFavorited = favoritesProvider.isFavorited(card: card)
+  }
   
   func openWikipedia() {
     if let wikipediaUrl = URL(string: card.wikipediaUrlString) {

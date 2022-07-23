@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct DetailView: View {
-  let viewModel: DetailViewModel
+  
+  @ObservedObject var viewModel: DetailViewModel
   
   var body: some View {
     ScrollView {
@@ -16,7 +17,7 @@ struct DetailView: View {
           overlayMessageType: nil,
           showingDetailIcons: true,
           isFavorited: viewModel.isFavorited, //parameter takes in a boolean
-          favoriteButtonAction: {} //this parameter takes in a function/closure
+          favoriteButtonAction: viewModel.didPressFavoriteButton //this parameter takes in a function/closure
         )
         
         Text(viewModel.description)
