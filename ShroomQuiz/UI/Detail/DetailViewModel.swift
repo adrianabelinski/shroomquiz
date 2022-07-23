@@ -1,9 +1,15 @@
 import Foundation
 import UIKit
 
+
 struct DetailViewModel {
+  private let favoritesProvider = FavoritesProvider()
+
+  var isFavorited: Bool {
+    favoritesProvider.isFavorited(card: card)
+  }
   
-  var imageName: String {
+  var imageName: String { //Type notation
     card.imageName
   }
   

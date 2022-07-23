@@ -15,8 +15,8 @@ struct DetailView: View {
           overlayText: nil,
           overlayMessageType: nil,
           showingDetailIcons: true,
-          isFavorited: true,
-          favoriteButtonAction: {}
+          isFavorited: viewModel.isFavorited, //parameter takes in a boolean
+          favoriteButtonAction: {} //this parameter takes in a function/closure
         )
         
         Text(viewModel.description)
