@@ -38,6 +38,7 @@
 		C6133E802853F8B600B27976 /* NextButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonStyle.swift; sourceTree = "<group>"; };
 		C6133E832856741A00B27976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C6269728288A117500F0BF78 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		C6269737288CBAD500F0BF78 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C637D500286942BE00E109D5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
 		C6841D5E283EE41C00ADE3F9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C6841D64283EE6A200ADE3F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		C691221E28399F2C0000B820 = {
 			isa = PBXGroup;
 			children = (
+				C6269737288CBAD500F0BF78 /* README.md */,
 				C691222928399F2C0000B820 /* ShroomQuiz */,
 				C691222828399F2C0000B820 /* Products */,
 			);
