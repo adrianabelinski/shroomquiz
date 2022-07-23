@@ -10,7 +10,7 @@ struct HomeView: View {
         NavigationLink(destination: AboutView()) {
           Text("ABOUT")
 
-        }.buttonStyle(HomeButtonStyle(buttonColor: .yellow))
+        }.buttonStyle(HomeButtonStyle(buttonColor: .appYellow))
         NavigationLink(destination: FavoritesView()) {
           Text("FAVORITES")
         }

@@ -40,7 +40,7 @@ struct CardImage: View {
             Image(systemName: isFavorited ? "star.fill" : "star")
               .font(.title.bold())
           }
-          .tint(.white)
+          .tint(.appYellow)
         }
         .padding()
       }
@@ -64,7 +64,7 @@ struct CardImage: View {
           .background(
             (overlayMessageType == .correct)
             ? Color.gemGreen.opacity(0.8)
-            : Color.yellow.opacity(0.8)
+            : Color.appYellow.opacity(0.8)
           )
         }
       }
