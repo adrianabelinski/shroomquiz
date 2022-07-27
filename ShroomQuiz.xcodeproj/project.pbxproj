@@ -28,6 +28,7 @@
 		C691223228399F2E0000B820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691223128399F2E0000B820 /* Preview Assets.xcassets */; };
 		C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223A2839A5080000B820 /* QuizButtonStyle.swift */; };
 		C691223D2839A6F40000B820 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223C2839A6F40000B820 /* Color+.swift */; };
+		C6BF00022890A4B900FA941C /* BodyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF00012890A4B900FA941C /* BodyText.swift */; };
 		C6CAE116284EE86D0010F29D /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CAE115284EE86D0010F29D /* CardImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		C691223128399F2E0000B820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C691223A2839A5080000B820 /* QuizButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtonStyle.swift; sourceTree = "<group>"; };
 		C691223C2839A6F40000B820 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		C6BF00012890A4B900FA941C /* BodyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyText.swift; sourceTree = "<group>"; };
 		C6CAE115284EE86D0010F29D /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				C6CAE115284EE86D0010F29D /* CardImage.swift */,
 				C691223C2839A6F40000B820 /* Color+.swift */,
 				C637D500286942BE00E109D5 /* CardRow.swift */,
+				C6BF00012890A4B900FA941C /* BodyText.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				C6910F06286634BB00941BED /* FavoritesViewModel.swift in Sources */,
 				C691222D28399F2C0000B820 /* QuizView.swift in Sources */,
 				C6841D65283EE6A200ADE3F9 /* Card.swift in Sources */,
+				C6BF00022890A4B900FA941C /* BodyText.swift in Sources */,
 				C691223D2839A6F40000B820 /* Color+.swift in Sources */,
 				C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
