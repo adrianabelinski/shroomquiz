@@ -131,6 +131,22 @@ struct CardRepository {
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Lycoperdon_perlatum"
     ),
     Card(
+      scientificName: "Sparassis",
+      commonName: "Cauliflower",
+      imageName: "cauliflower",
+      edible: true,
+      description: "Sparassis (also known as cauliflower mushroom) is a genus of parasitic and saprobic mushrooms characterised by their unique shape and appearance. Can be found around the globe. This appearance can be described as similar to a sea sponge, a brain, or a head of cauliflower, from which it has been given its popular name.They are increasingly cultivated and being sold in Korea, Japan, United States and Australia.The generic name comes from the Greek sparassein meaning to tear. Sparassis crispa can be very tasty, but should be thoroughly cleaned before use. The folds can contain dirt and other material because, as it grows, the basidiocarp envelops objects around it such as pine needles.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Sparassis"
+    ),
+    Card(
+      scientificName: "Hericium erinaceus",
+      commonName: "Lion's Mane",
+      imageName: "lions_mane",
+      edible: true,
+      description: "Hericium erinaceus (also called lion's mane mushroom, mountain-priest mushroom or bearded tooth fungus) is an edible mushroom belonging to the tooth fungus group. Native to North America, Europe and Asia, it can be identified by its long spines (greater than 1 cm length), occurrence on hardwoods, and tendency to grow a single clump of dangling spines. The fruit bodies can be harvested for culinary use. ",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Hericium_erinaceus"
+    ),
+    Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
       imageName: "honey-fungus",

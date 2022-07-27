@@ -10,7 +10,7 @@ struct AboutView: View {
           .font(.title)
           .bold()
           .foregroundColor(Color.rubyRed)
-        BodyText("Use this information at your own risk. The information here is used to teach and entertain, but is by no means reviewed by fungi experts. Please don't go picking and chewing on every mushroom your find, because that'd be bad! Consult the pros before you begin any actual foraging.")
+        BodyText("Use this information at your own risk. The information here is used to teach and entertain, but is by no means reviewed by fungi experts. Please don't go picking and chewing on every mushroom you find, because that'd be bad! Consult the pros before you begin any actual foraging.")
         
       }
       .padding()
