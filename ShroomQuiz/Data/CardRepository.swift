@@ -147,6 +147,38 @@ struct CardRepository {
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Hericium_erinaceus"
     ),
     Card(
+      scientificName: "Gyromitra",
+      commonName: "False Morel",
+      imageName: "false_morel",
+      edible: false,
+      description: "Gyromitra is a genus of about 18 species of ascomycete fungi. They are a false morel - a frequently toxic mushroom that can be mistaken for edible mushrooms of the genus Morchella (morels). The name Gyromitra comes from gyro meaning convoluted and mitra meaning turban. Some types of Gyromitra are highly poisonous when raw due to the presence of gyromitrin, although some species are edible when cooked and Gyromitra are sought after in Scandinavian countries.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Gyromitra"
+    ),
+    Card(
+      scientificName: "Calvatia gigantea",
+      commonName: "Giant Puffball",
+      imageName: "giant_puffball",
+      edible: true,
+      description: "Calvatia gigantea, commonly known as the giant puffball, is a puffball mushroom commonly found in meadows, fields, and deciduous forests usually in late summer and autumn. It is found in temperate areas throughout the world. The fruiting body of a puffball mushroom will develop within the period of a few weeks and soon begin to decompose and rot, at which point it is dangerous to eat. Unlike most mushrooms, all the spores of the giant puffball are created inside the fruiting body; large specimens can easily contain several trillion spores. Spores are yellowish, smooth, and 3–5 μm in size.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Calvatia_gigantea"
+    ),
+    Card(
+      scientificName: "Amanita bisporigera",
+      commonName: "Destroying Angel",
+      imageName: "destroying_angel",
+      edible: false,
+      description: "Amanita bisporigera is a deadly poisonous species of fungus in the family Amanitaceae. It is commonly known as the eastern destroying angel amanita,[3] the eastern North American destroying angel or just as the destroying angel, although the fungus shares this latter name with three other lethal white Amanita species, A. ocreata, A. verna and A. virosa.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Amanita_bisporigera"
+    ),
+    Card(
+      scientificName: "Omphalotus illudens",
+      commonName: "jack-o'lantern",
+      imageName: "jack-olantern",
+      edible: false,
+      description: "Omphalotus illudens, commonly known as the eastern jack-o'lantern mushroom, is a large, orange mushroom that is often found in clumps on decaying stumps, buried roots, or at the base of hardwood trees in eastern North America. Its gills often exhibit a weak green bioluminescence when fresh. It is believed that this display serves to attract insects to the mushroom’s gills during nighttime, which can then distribute its spores across a wider area. Omphalotus illudens is sometimes confused with edible chanterelles, but can be distinguished by its thicker, fleshier appearance, tendency to form large clusters, and clearly separated caps when young.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Omphalotus_illudens"
+    ),
+    Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
       imageName: "honey-fungus",
