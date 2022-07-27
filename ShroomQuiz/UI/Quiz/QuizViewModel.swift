@@ -10,6 +10,7 @@ class QuizViewModel: ObservableObject {
   @Published var buttonOptions: [String]?
   @Published var showingFavoriteButton = false
   @Published var isFavorited = false
+  @Published var isEdible = false
   
   // MARK: - Private properties
   
@@ -49,6 +50,7 @@ class QuizViewModel: ObservableObject {
     self.imageOverlayMessageType = nil
     
     self.isFavorited = favoritesProvider.isFavorited(card: displayedCard)
+    self.isEdible = displayedCard.edible
   }
   
   func didAnswer(with answer: String) {

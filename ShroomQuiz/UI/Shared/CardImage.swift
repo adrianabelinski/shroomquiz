@@ -9,6 +9,7 @@ struct CardImage: View {
   let overlayMessageType: OverlayMessageType?
   let showingDetailIcons: Bool
   let isFavorited: Bool
+  let isEdible: Bool
   let favoriteButtonAction: () -> Void
   
   var body: some View {
@@ -32,9 +33,14 @@ struct CardImage: View {
         Spacer()
         
         HStack {
-          Image(systemName: "fork.knife.circle.fill")
-            .font(.title.bold())
-            .foregroundColor(.white)
+          
+          if isEdible {
+            Image(systemName: "fork.knife.circle.fill")
+              .font(.title.bold())
+              .foregroundColor(.white)
+          }
+          
+          
           
           Button(action: favoriteButtonAction) {
             Image(systemName: isFavorited ? "star.fill" : "star")
