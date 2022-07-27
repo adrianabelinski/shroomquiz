@@ -107,6 +107,14 @@ struct CardRepository {
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Phallus_indusiatus"
     ),
     Card(
+      scientificName: "Cortinarius violaceus",
+      commonName: "Violet Webcap",
+      imageName: "violet-webcap",
+      edible: false,
+      description: "Cortinarius violaceus, commonly known as the violet webcap or violet cort, is a fungus in the webcap genus Cortinarius native across the Northern Hemisphere. The fruit bodies are dark purple mushrooms with caps up to 15 cm (6 in) across, sporting gills underneath. The dark flesh has a smell reminiscent of cedar wood. Forming symbiotic (ectomycorrhizal) relationships with the roots of various plant species, C. violaceus is found predominantly in conifer forests in North America and deciduous forests in Europe. ",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Cortinarius_violaceus"
+    ),
+    Card(
       scientificName: "Flammulina filiformis",
       commonName: "Enoki",
       imageName: "enoki",
