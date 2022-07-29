@@ -202,8 +202,7 @@ struct CardRepository {
   }
   
   func getRandomCard() -> Card {
-    let randomIndex = Int.random(in: 0...cards.count - 1)
-    let randomCard = Array(cards)[randomIndex]
+    let randomCard = Array(cards).randomElement()!
     return randomCard
   }
   
