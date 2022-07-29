@@ -179,6 +179,54 @@ struct CardRepository {
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Omphalotus_illudens"
     ),
     Card(
+      scientificName: "Entoloma abortivum",
+      commonName: "Shrimp Mushroom",
+      imageName: "shrimp-mushroom",
+      edible: true,
+      description: "Entoloma abortivum, commonly known as the aborted entoloma or shrimp of the woods, is an edible mushroom in the Entolomataceae family of fungi. Caution should be used in identifying the species before eating (similar species such as Entoloma sinuatum being poisonous). It was believed that the honey mushroom, Armillaria mellea, was parasitizing the entoloma. But research has indicated that the inverse may be true—the entoloma may be parasitizing the honey mushroom. There is still some disagreement by mushroom collectors about this since it is common to see both the aborted and unaborted forms of the entoloma on wood and in leaf litter, whereas Armillaria generally only fruits on wood. Both versions of the entoloma have also been observed when there are no Armillaria fruiting.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Entoloma_abortivum"
+    ),
+    Card(
+      scientificName: "Ganoderma applanatum",
+      commonName: "Artist's Conk",
+      imageName: "artists-conk",
+      edible: false,
+      description: "Ganoderma applanatum (the artist's bracket, artist's conk, artist's fungus or bear bread) is a bracket fungus with a cosmopolitan distribution. This fungus is parasitic and saprophytic, and grows as a mycelium within the wood of living and dead trees. The Ganoderma applanatum grows in single, scattered, or compound formations. It forms fruiting bodies that are 3–30 cm wide × 5–50 cm long × 1–10 cm thick, hard as leather, woody-textured, and inedible. They are white at first but soon turn dark red-brown. The upper surface of the fruiting body is covered with reddish brown conidia. Brown spores are released from the pores on the underside of the fruiting body. The fruiting bodies are perennial, and may persist for multiple years, increasing in size and forming new layers of pores as they grow. These layers can be distinguished in a cross section or from observation of the concentric rings on the upper surface of the fruiting body. This allows the fruiting body's age to be determined using the same method as tree rings.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Ganoderma_applanatum"
+    ),
+    Card(
+      scientificName: "Fistulina hepatica",
+      commonName: "Beefsteak Fungus",
+      imageName: "beefsteak-fungus",
+      edible: true,
+      description: "Fistulina hepatica (beefsteak fungus, also known as beefsteak polypore, poor man’s steak, ox tongue, or tongue mushroom) is an unusual bracket fungus classified in the Agaricales, that is commonly seen in Britain, but can be found in North America, Australia, North Africa, Southern Africa and the rest of Europe. As its name suggests, it looks remarkably similar to a slab of raw meat. It has been used as a meat substitute in the past, and can still be found in some French markets. It has a sour, slightly acidic taste. For eating it must be collected young and it may be tough and need long cooking. The cap is 7–30 cm wide and 2–6 cm thick. Is shape resembles a large tongue, and it is rough-surfaced with a reddish-brown colour. The spores are pink and released from minute pores on the creamy-white underside of the fruit body. A younger Fistulina hepatica is a pinkish-red colour, and it darkens with age. It bleeds a dull red juice when cut, which can cause stains, and the cut flesh further resembles meat. It is sour in taste, edible and considered choice by some, although older specimens should be soaked overnight, as their juice can cause gastric upset.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Fistulina_hepatica"
+    ),
+    Card(
+      scientificName: "Craterellus cornucopioides",
+      commonName: "Black Trumpet",
+      imageName: "black-trumpet",
+      edible: true,
+      description: "Craterellus cornucopioides, or horn of plenty, is an edible mushroom. It is also known as the black chanterelle, black trumpet, trompette de la mort (French), trombetta dei morti (Italian) or trumpet of the dead, djondjon (Haitian). The Cornucopia, in Greek mythology, referred to the magnificent horn of the nymph Amalthea's goat (or of herself in goat form), that filled itself with whatever meat or drink its owner requested. It has become the symbol of plenty.A possible origin for the name trumpet of the dead is that the growing mushrooms were seen as being played as trumpets by dead people under the ground. This fungus is found in woods in Europe, North America, and East Asia. Mainly it grows under beech, oak or other broad-leaved trees, especially in moss in moist spots on heavy calcareous soil. In Europe it is generally common but seems to be rare in some countries such as the Netherlands. It appears from June to November, and in the UK, from August to November. The mushroom is usually almost black, and it is hard to find because its dark colour easily blends in with the leaf litter on the forest floor. Hunters of this mushroom say it is like looking for black holes in the ground.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Craterellus_cornucopioides"
+    ),
+    Card(
+      scientificName: "Ustilago maydis",
+      commonName: "Corn Smut",
+      imageName: "corn-smut",
+      edible: true,
+      description: "Corn smut is a plant disease caused by the pathogenic fungus Ustilago maydis that causes smut on maize and teosinte. The fungus forms galls on all above-ground parts of corn species. It is edible, and is known in Mexico as the delicacy huitlacoche; which is eaten, usually as a filling, in quesadillas and other tortilla-based foods, and in soups. The fungus infects all parts of the host plant by invading the ovaries of its host. The infection causes the corn kernels to swell up into tumor-like galls, whose tissues, texture, and developmental pattern are mushroom-like. The galls grow to 4 to 5 inches in diameter. These galls are made up of hypertrophied cells of the infected plant, along with resulting fungal threads, and blue-black spores. These dark-colored spores give the cob a burned, scorched appearance; this is the origin of the generic name Ustilago, from the Latin word ustilare (to burn).",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Corn_smut"
+    ),
+    Card(
+      scientificName: "Peniophora albobadia",
+      commonName: "Giraffe Spots",
+      imageName: "giraffe-spots",
+      edible: false,
+      description: "Peniophora albobadia is a species of crust fungus in the family Peniophoraceae. It is a plant pathogen that affects stone fruits. First described scientifically by Lewis David de Schweinitz in 1822,[2] it was transferred to the genus Peniophora by Jacques Boidin in 1961.[3] It is most commonly found in the United States.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Peniophora_albobadia"
+    ),
+    Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
       imageName: "honey-fungus",

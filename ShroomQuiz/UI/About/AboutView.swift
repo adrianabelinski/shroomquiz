@@ -22,6 +22,24 @@ struct AboutView: View {
         Text("[Omphalotus illudens image](https://commons.wikimedia.org/wiki/File:2007-08-05_Omphalotus_illudens_(Schwein.)_Bresinsky_%26_Besl_1018098506.jpg) © Jason Hollinger")
           .bodyStyle()
         
+        Text("[Entoloma abortivum image](https://commons.wikimedia.org/wiki/File:Armillaria_gallica_57535.jpg) © Dan Molter")
+          .bodyStyle()
+        
+        Text("[Ganoderma applanatum image](https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg) © George Chernilevsky")
+          .bodyStyle()
+        
+        Text("[Fistulina hepatica image](https://commons.wikimedia.org/wiki/File:Fistulina_hepatica.JPG) © Jiří Berkovec")
+          .bodyStyle()
+        
+        Text("[Craterellus cornucopioides image](https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_JPG1.jpg) © Jean-Pol GRANDMONT")
+          .bodyStyle()
+        
+        Text("[Corn Smut image](https://commons.wikimedia.org/wiki/File:Ustilago_maydis_J1b.jpg) © Jamain")
+          .bodyStyle()
+        
+        Text("[Peniophora albobadia image](https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_196080.jpg) © Patrick Harvey")
+          .bodyStyle()
+        
       }
       .padding()
     }
