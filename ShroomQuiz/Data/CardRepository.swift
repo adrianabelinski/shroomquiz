@@ -201,9 +201,15 @@ struct CardRepository {
     return Array(cards).sorted(by: { $0.commonName < $1.commonName })
   }
   
-  func getRandomCard() -> Card {
-    let randomCard = Array(cards).randomElement()!
-    return randomCard
+  func getRandomCard(oldCard: Card?) -> Card {
+    var newCard = Array(cards).randomElement()!
+    
+    if let oldCard = oldCard {
+      while newCard == oldCard {
+        newCard = Array(cards).randomElement()!
+      }
+    }
+    return newCard
   }
   
   func wrongCards(for rightCard: Card) -> [Card] {

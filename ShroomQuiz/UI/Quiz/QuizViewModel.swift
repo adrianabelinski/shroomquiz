@@ -29,7 +29,7 @@ class QuizViewModel: ObservableObject {
   func displayNewCard() {
     showingFavoriteButton = false
 
-    let newCard = cardRepository.getRandomCard()
+    let newCard = cardRepository.getRandomCard(oldCard: displayedCard)
     
     let wrongCards = cardRepository.wrongCards(for: newCard)
     
