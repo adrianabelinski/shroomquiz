@@ -29,28 +29,28 @@ class QuizViewModel: ObservableObject {
   func displayNewCard() {
     showingFavoriteButton = false
 
-    let displayedCard = cardRepository.getRandomCard()
+    let newCard = cardRepository.getRandomCard()
     
-    let wrongCards = cardRepository.wrongCards(for: displayedCard)
+    let wrongCards = cardRepository.wrongCards(for: newCard)
     
     var buttonOptions = [String]()
     
-    buttonOptions.append(displayedCard.commonName)
+    buttonOptions.append(newCard.commonName)
     buttonOptions.append(wrongCards[0].commonName)
     buttonOptions.append(wrongCards[1].commonName)
     buttonOptions.append(wrongCards[2].commonName)
     buttonOptions.shuffle()
     
-    self.displayedCard = displayedCard
+    self.displayedCard = newCard
     
-    self.displayedImageName = displayedCard.imageName
+    self.displayedImageName = newCard.imageName
     self.buttonOptions = buttonOptions
     
     self.imageOverlayText = nil
     self.imageOverlayMessageType = nil
     
-    self.isFavorited = favoritesProvider.isFavorited(card: displayedCard)
-    self.isEdible = displayedCard.edible
+    self.isFavorited = favoritesProvider.isFavorited(card: newCard)
+    self.isEdible = newCard.edible
   }
   
   func didAnswer(with answer: String) {
