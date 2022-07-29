@@ -6,7 +6,7 @@ struct HomeButtonStyle: ButtonStyle {
   
   func makeBody(configuration: Self.Configuration) -> some View {
     return configuration.label
-      .font(.title2.bold())
+      .font(.title.bold())
       .frame(width: 300, height: 65, alignment: .center)
       .background(buttonColor)
       .foregroundColor(Color.white)

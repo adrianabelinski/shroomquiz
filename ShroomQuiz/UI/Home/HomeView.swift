@@ -1,25 +1,41 @@
 import SwiftUI
 
 struct HomeView: View {
+  
   var body: some View {
     NavigationView {
-      VStack {
-        NavigationLink(destination: QuizView()) {
-          Text("PLAY")
-        }.buttonStyle(HomeButtonStyle(buttonColor: .rubyRed))
-        NavigationLink(destination: AboutView()) {
-          Text("ABOUT")
-
-        }.buttonStyle(HomeButtonStyle(buttonColor: .appYellow))
-        NavigationLink(destination: FavoritesView()) {
-          Text("FAVORITES")
+      ZStack {
+        Image("home-background-v2")
+          .resizable()
+          .aspectRatio(contentMode: .fill)
+          .ignoresSafeArea()
+          .padding(.top, 20)
+          .padding(.bottom, -90)
+          .padding(.leading, 250)
+        
+        VStack {
+          NavigationLink(destination: QuizView()) {
+            Text("Play")
+          }
+          .buttonStyle(HomeButtonStyle(buttonColor: .rubyRed))
+          
+          NavigationLink(destination: AboutView()) {
+            Text("About")
+          }
+          .buttonStyle(HomeButtonStyle(buttonColor: .appYellow))
+          
+          NavigationLink(destination: FavoritesView()) {
+            Text("Favorites")
+          }
+          .buttonStyle(HomeButtonStyle(buttonColor: .mikuBlue))
+          
+          NavigationLink(destination: CatalogView()) {
+            Text("Catalog")
+          }
+          .buttonStyle(HomeButtonStyle(buttonColor: .purpleGrape))
         }
-        .buttonStyle(HomeButtonStyle(buttonColor: .mikuBlue))
-        NavigationLink(destination: CatalogView()) {
-          Text("CATALOG")
-        } .buttonStyle(HomeButtonStyle(buttonColor: .purpleGrape))
+        .navigationTitle("ShroomQuiz")
       }
-      .navigationTitle("ShroomQuiz")
     }
   }
 }

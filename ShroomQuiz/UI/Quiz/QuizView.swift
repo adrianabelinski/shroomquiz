@@ -5,6 +5,7 @@ struct QuizView: View {
   @StateObject var viewModel = QuizViewModel()
   
   var body: some View {
+    
     VStack {
       if let displayedImageName = viewModel.displayedImageName {
         CardImage(
