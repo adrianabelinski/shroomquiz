@@ -57,6 +57,7 @@
 		C691223128399F2E0000B820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C691223A2839A5080000B820 /* QuizButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtonStyle.swift; sourceTree = "<group>"; };
 		C691223C2839A6F40000B820 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		C693373328946F93005333AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C6CAE115284EE86D0010F29D /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +182,7 @@
 		C691222928399F2C0000B820 /* ShroomQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				C693373328946F93005333AA /* Info.plist */,
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
 				C6910F01286155C500941BED /* UI */,
 				C6910F02286155E400941BED /* Data */,
@@ -421,6 +423,7 @@
 				DEVELOPMENT_TEAM = H7ATB2ZBVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShroomQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +455,7 @@
 				DEVELOPMENT_TEAM = H7ATB2ZBVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShroomQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
