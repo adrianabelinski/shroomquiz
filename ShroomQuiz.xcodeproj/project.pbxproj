@@ -182,12 +182,12 @@
 		C691222928399F2C0000B820 /* ShroomQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				C693373328946F93005333AA /* Info.plist */,
 				C691222A28399F2C0000B820 /* ShroomQuizApp.swift */,
 				C6910F01286155C500941BED /* UI */,
 				C6910F02286155E400941BED /* Data */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
 				C691223028399F2E0000B820 /* Preview Content */,
+				C693373328946F93005333AA /* Info.plist */,
 			);
 			path = ShroomQuiz;
 			sourceTree = "<group>";
