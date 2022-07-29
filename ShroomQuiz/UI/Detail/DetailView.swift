@@ -22,7 +22,6 @@ struct DetailView: View {
         )
         
         Text(viewModel.description)
-        //  .multilineTextAlignment(.center)
           .lineSpacing(1)
           .font(Font.custom("Helvetica", size: 20, relativeTo: .title3))
           .padding(.horizontal, 10)
@@ -32,13 +31,16 @@ struct DetailView: View {
         Button(action: viewModel.openWikipedia, label: {
           HStack {
             Spacer()
+            
             Text("Wikipedia")
-              .font(.title2)
+              .font(.title2.bold())
+              .shadow(color: .black.opacity(0.3), radius: 2, x: 1, y: 1)
               .frame(width: 300, height: 50, alignment: .center)
               .background(Color.gemGreen)
-              .foregroundColor(Color.black)
+              .foregroundColor(Color.white)
               .cornerRadius(10)
               .padding(7)
+            
            Spacer()
           }
         })
