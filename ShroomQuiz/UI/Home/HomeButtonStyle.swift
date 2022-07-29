@@ -7,6 +7,7 @@ struct HomeButtonStyle: ButtonStyle {
   func makeBody(configuration: Self.Configuration) -> some View {
     return configuration.label
       .font(.title.bold())
+      .shadow(color: .black.opacity(0.3), radius: 2, x: 1, y: 1)
       .frame(width: 300, height: 65, alignment: .center)
       .background(buttonColor)
       .foregroundColor(Color.white)
@@ -18,7 +19,7 @@ struct HomeButtonStyle: ButtonStyle {
 struct HomeButtonStyle_Previews: PreviewProvider {
   static var previews: some View {
     Button(action: {}) {
-      Text("Button with HomeButtonStyle")
+      Text("Button")
     }
     .buttonStyle(HomeButtonStyle(buttonColor: .mikuBlue))
     .previewLayout(.sizeThatFits)
