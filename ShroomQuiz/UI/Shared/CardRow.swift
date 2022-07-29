@@ -9,8 +9,14 @@ struct CardRow: View {
         .resizable()
         .frame(width: 70, height: 70)
         .cornerRadius(10)
+      
       Text(card.commonName)
+        .tint(.textGrey)
+      
       Spacer()
+      
+      Image(systemName: "chevron.right")
+        .tint(.textGrey)
     }
     .padding(.horizontal, 10)
   }
