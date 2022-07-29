@@ -172,7 +172,7 @@ struct CardRepository {
     ),
     Card(
       scientificName: "Omphalotus illudens",
-      commonName: "jack-o'lantern",
+      commonName: "Jack-o'lantern",
       imageName: "jack-olantern",
       edible: false,
       description: "Omphalotus illudens, commonly known as the eastern jack-o'lantern mushroom, is a large, orange mushroom that is often found in clumps on decaying stumps, buried roots, or at the base of hardwood trees in eastern North America. Its gills often exhibit a weak green bioluminescence when fresh. It is believed that this display serves to attract insects to the mushroom’s gills during nighttime, which can then distribute its spores across a wider area. Omphalotus illudens is sometimes confused with edible chanterelles, but can be distinguished by its thicker, fleshier appearance, tendency to form large clusters, and clearly separated caps when young.",
