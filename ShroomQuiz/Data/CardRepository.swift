@@ -227,6 +227,134 @@ struct CardRepository {
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Peniophora_albobadia"
     ),
     Card(
+      scientificName: "Chlorophyllum molybdites",
+      commonName: "green-spored Lepiota",
+      imageName: "green-spored-lepiota",
+      edible: false,
+      description: "Chlorophyllum molybdites, which has the common names of false parasol, green-spored Lepiota and vomiter, is a widespread mushroom. Poisonous and producing severe gastrointestinal symptoms of vomiting and diarrhea, it is commonly conflated with the shaggy parasol or shaggy mane, and is the most commonly misidentified poisonous mushroom in North America. Chlorophyllum molybdites is the most frequently eaten poisonous mushroom in North America. The symptoms are predominantly gastrointestinal in nature, with vomiting, diarrhea and colic, often severe, occurring 1–3 hours after consumption. Although these poisonings can be severe, particularly in children, none have yet resulted in death.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites"
+    ),
+    Card(
+      scientificName: "Lactarius",
+      commonName: "Milk Caps",
+      imageName: "milk-caps",
+      edible: false,
+      description: "Lactarius is a genus of mushroom-producing, ectomycorrhizal fungi, containing several edible species. The species of the genus, commonly known as milk-caps, are characterized by the milky fluid they exude when cut or damaged. Like the closely related genus Russula, their flesh has a distinctive brittle consistency. It is a large genus with over 500 known species, mainly distributed in the Northern hemisphere. Recently, the genus Lactifluus has been separated from Lactarius based on molecular phylogenetic evidence.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Lactarius"
+    ),
+    Card(
+      scientificName: "Grifola frondosa",
+      commonName: "Hen-of-the-woods",
+      imageName: "hen-of-the-woods",
+      edible: true,
+      description: "Grifola frondosa (also known as hen-of-the-woods, maitake, ram's head or sheep's head) is a polypore mushroom that grows at the base of trees, particularly old growth oaks or maples. It is typically found in late summer to early autumn. It is native to China, Europe, and North America. The species is a choice edible mushroom. Maitake has been consumed for centuries in China and Japan where it is one of the major culinary mushrooms. The softer caps must be thoroughly cooked.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Grifola_frondosa"
+    ),
+    Card(
+      scientificName: "Hydnum umbilicatum",
+      commonName: "Hedgehog Mushroom",
+      imageName: "hedgehog-mushroom",
+      edible: true,
+      description: "Hydnum umbilicatum, commonly known as the depressed hedgehog, is a species of tooth fungus in the family Hydnaceae. It was scientifically described in 1902 by American mycologist Charles Horton Peck. It is found in North America and in Europe. It is edible and good. Hydnum umbilicatum has been found to be associated with pines. Can be confused with Hydnum repandum, also known as the Wood Hedgehog. These two can be distinguished by their teeth, the Wood Hedgehog being decurrent.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Hydnum_umbilicatum"
+    ),
+    Card(
+      scientificName: "Pleurotus eryngii",
+      commonName: "King Oyster",
+      imageName: "king-oyster",
+      edible: true,
+      description: "Pleurotus eryngii (also known as king trumpet mushroom, French horn mushroom, eryngi, king oyster mushroom, king brown mushroom, boletus of the steppes[Note 1], trumpet royale, aliʻi oyster) is an edible mushroom native to Mediterranean regions of Europe, the Middle East, and North Africa, but also grown in many parts of Asia. Pleurotus eryngii is the largest species in the oyster mushroom genus, Pleurotus, which also contains the oyster mushroom Pleurotus ostreatus. It has a thick, meaty white stem and a small tan cap (in young specimens). Its natural range extends from the Atlantic Ocean through the Mediterranean Basin and Central Europe into Western Asia and India. Unlike other species of Pleurotus, which are primarily wood-decay fungi, the P. eryngii complex are also weak parasites on the roots of herbaceous plants, although they may also be cultured on organic wastes.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Pleurotus_eryngii"
+    ),
+    Card(
+      scientificName: "Tricholoma matsutake",
+      commonName: "Matsutake",
+      imageName: "matsutake",
+      edible: true,
+      description: "Matsutake (Japanese: 松茸/マツタケ), Tricholoma matsutake, is a highly sought species of choice edible mycorrhizal mushroom that grows in East Asia, Europe, and North America. It is prized in Japanese cuisine for its distinct spicy-aromatic odor. Matsutake are hard to find because of their specific growth requirements, the rarity of appropriate forest and terrain, and competition from wild animals such as squirrels, rabbits, and deer for the once-yearly harvest of mushrooms.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Matsutake"
+    ),
+    Card(
+      scientificName: "Russula",
+      commonName: "Russula",
+      imageName: "russula",
+      edible: false,
+      description: "Russula is a very large genus composed of around 750 worldwide species of ectomycorrhizal mushrooms. They are typically common, fairly large, and brightly colored – making them one of the most recognizable genera among mycologists and mushroom collectors. Their distinguishing characteristics include usually brightly coloured caps, a white to dark yellow spore print, brittle, attached gills, an absence of latex, and absence of partial veil or volva tissue on the stem. Humans collect several species of Russula for food. There is a cultural divide toward interpretation of Russula edibility. In general, North American field guides tend to list mostly non-edible species and advise caution when consuming any member of the genus. In contrast, European field guides have a more favorable opinion and list more edible species.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Russula"
+    ),
+    Card(
+      scientificName: "Shiitake",
+      commonName: "Shiitake",
+      imageName: "shiitake",
+      edible: true,
+      description: "The shiitake (Lentinula edodes) is an edible mushroom native to East Asia, which is now cultivated and consumed around the globe. It is considered a medicinal mushroom in some forms of traditional medicine. The mushroom's Japanese name shiitake (椎茸) is composed of shii (椎, Castanopsis), for the tree Castanopsis cuspidata that provides the dead logs on which it is typically cultivated, and take (茸, mushroom). The specific epithet edodes is the Latin word for edible. Shiitake grow in groups on the decaying wood of deciduous trees, particularly shii and other chinquapins, chestnut, oak, maple, beech, sweetgum, poplar, hornbeam, ironwood, and mulberry. Its natural distribution includes warm and moist climates in Southeast Asia.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Shiitake"
+    ),
+    Card(
+      scientificName: "Suillus luteus",
+      commonName: "Bolete - Suillus luteus",
+      imageName: "bolete-suillus-luteus",
+      edible: true,
+      description: "Suillus luteus is a bolete fungus, and the type species of the genus Suillus. A common fungus native to Eurasia, from the British Isles to Korea, it has been introduced widely elsewhere, including North and South America, southern Africa, Australia and New Zealand. Commonly referred to as slippery jack or sticky bun in English-speaking countries, its names refer to the brown cap, which is characteristically slimy in wet conditions. The fungus, initially described as Boletus luteus by Carl Linnaeus in 1753, is now classified in a different family as well as genus. Suillus luteus is edible, though not as highly regarded as other bolete mushrooms, and is commonly prepared and eaten in soups, stews or fried dishes. The slime coating, however, may cause indigestion if not removed before eating. The fungus grows in coniferous forests in its native range, and pine plantations in countries where it has become naturalized. It forms symbiotic ectomycorrhizal associations with living trees by enveloping the tree's underground roots with sheaths of fungal tissue. The fungus produces spore-bearing fruit bodies, often in large numbers, above ground in summer and autumn. The fruit body cap often has a distinctive conical shape before flattening with age, reaching up to 13 cm (5 in) in diameter. Like other boletes, it has tubes extending downward from the underside of the cap, rather than gills; spores escape at maturity through the tube openings, or pores. The pore surface is yellow, and covered by a membranous partial veil when young. The pale stipe, or stem, measures up to 10 cm (4 in) tall and 3 cm (1.2 in) thick and bears small dots near the top. Unlike most other boletes, it bears a distinctive membranous ring that is tinged brown to violet on the underside.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Suillus_luteus"
+    ),
+    Card(
+      scientificName: "Clavariadelphus truncatus",
+      commonName: "Club Coral",
+      imageName: "club-coral",
+      edible: true,
+      description: "Clavariadelphus truncatus is a species of mushroom. The common name of the species is truncated club or club coral. It is a member of the basidiomycete fungi family Gomphaceae. The species has a yellow-orange fruiting body in the shape of a club with a flat cap. The flesh is white, thin, and hollow at the top. The vertical side of the fruiting body normally has folds and wrinkles, but can be smooth. The spores are smooth and their spore print is pale yellow to ochre. The mushroom has a pleasant odor and a sweet taste. The mushroom's habitat is in coniferous forests from summer to autumn. The mushroom is edible and has a sweet taste. Old mushrooms may be spongy and soft inside. The species is high in nutrition and can be used for cooking. The mushroom contains clavaric acid, which has been shown to reduce the rate of tumor development when given to mice.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus"
+    ),
+    Card(
+      scientificName: "Ganoderma lingzhi",
+      commonName: "Reishi",
+      imageName: "reishi",
+      edible: true,
+      description: "Lingzhi, Ganoderma lingzhi, also known as reishi, is a polypore fungus bracket fungus belonging to the genus Ganoderma. Its reddish brown varnished kidney-shaped cap with bands and peripherally inserted stem gives it a distinct fan-like appearance. When fresh, the lingzhi is soft, cork-like, and flat. It lacks gills on its underside, and instead releases its spores via fine pores (80–120 μm) in yellow colors. The lingzhi mushroom is used in traditional Chinese medicine. There is insufficient evidence to indicate that consuming lingzhi mushrooms or their extracts has any effect on human health or diseases. In nature, it grows at the base and stumps of deciduous trees, especially that of the maple. Only two or three out of 10,000 such aged trees will have lingzhi growth, and therefore its wild form is rare. Lingzhi may be cultivated on hardwood logs, sawdust, or woodchips.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)"
+    ),
+    Card(
+      scientificName: "Termitomyces reticulatus",
+      commonName: "Termitomyces",
+      imageName: "termitomyces",
+      edible: true,
+      description: "Termitomyces is a genus of basidiomycete fungi belonging to the family Lyophyllaceae. There are 30-40 species in the genus, all of which are completely dependent on termites to survive. They are the food source for a subfamily of termites, the Macrotermitinae, who enjoy an obligate symbiosis with the genus similar to that between Atta ants and Attamyces mushrooms. Despite this relationship, spore transfer is still accomplished mainly by shedding from mushrooms, which protrude from the termite mounds. These mushrooms are edible for most people, and the larger species are a popular wild food where they occur. They include the largest edible mushroom in the world, Termitomyces titanicus of West Africa and Zambia, whose cap reaches 1 metre (3.28ft) in diameter. These fungi grow on 'combs' which are formed from the termites' excreta, dominated by tough woody fragments. Termitomyces was described by Roger Heim in 1942.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Termitomyces"
+    ),
+    Card(
+      scientificName: "Clitocybe nuda",
+      commonName: "Wood blewit",
+      imageName: "wood-blewit",
+      edible: true,
+      description: "Clitocybe nuda, commonly known as the wood blewit and alternately described as Lepista nuda, is an edible mushroom native to Europe and North America. Described by Pierre Bulliard in 1790, it was also known as Tricholoma nudum for many years. It is found in both coniferous and deciduous woodlands. Wood blewits are generally regarded as a good edible, but they are known to cause allergic reactions in sensitive individuals. This is particularly likely if the mushroom is consumed raw, though allergic reactions are known even from cooked blewits.Nevertheless, it has been cultivated in Britain, the Netherlands and France. The French mycologist Pierre Bulliard described the wood blewit in his work Herbier de la France in 1790 as Agaricus nudus, reporting that it was common in the woods all year. He wrote of two varieties: one whose gills and cap are initially light violet and mature to burgundy, while the other has vine-coloured gills that intensify in colour with age.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Clitocybe_nuda"
+    ),
+    Card(
+      scientificName: "Stropharia rugosoannulata",
+      commonName: "Wine cap",
+      imageName: "wine-cap",
+      edible: true,
+      description: "Stropharia rugosoannulata, commonly known as the wine cap stropharia, garden giant, burgundy mushroom or king stropharia (Japanese: saketsubatake), is an agaric of the family Strophariaceae found in Europe and North America, and introduced to Australia and New Zealand. The mushroom was reported in April 2018 in Colombia, in the city of Bogota. Unlike many other members of the genus Stropharia, it is regarded as a choice edible and is commercially cultivated. The king stropharia can grow to 20 cm high with a reddish-brown convex to flattening cap up to 30 cm across, the size leading to another colloquial name godzilla mushroom. The gills are initially pale, then grey, and finally dark purple-brown in colour. The firm flesh is white, as is the tall stem which bears a wrinkled ring. This is the origin of the specific epithet which means wrinkled-ringed. It is found on wood chips across North America in summer and autumn. Described as very tasty by some authors, king stropharia is easily cultivated on a medium similar to that on which it grows naturally. Antonio Carluccio recommends sautéeing them in butter or grilling them.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata"
+    ),
+    Card(
+      scientificName: "Truffle",
+      commonName: "Truffle",
+      imageName: "truffle",
+      edible: true,
+      description: "A truffle is the fruiting body of a subterranean ascomycete fungus, predominantly one of the many species of the genus Tuber. In addition to Tuber, many other genera of fungi are classified as truffles including Geopora, Peziza, Choiromyces, Leucangium, and over a hundred others. These genera belong to the class Pezizomycetes and the Pezizales order. Several truffle-like basidiomycetes are excluded from Pezizales, including Rhizopogon and Glomus. Truffles are ectomycorrhizal fungi, so are usually found in close association with tree roots. Spore dispersal is accomplished through fungivores, animals that eat fungi. These fungi have significant ecological roles in nutrient cycling and drought tolerance. Some truffle species are highly prized as food. French gastronome Jean Anthelme Brillat-Savarin called truffles the diamond of the kitchen. Edible truffles are used in Italian, French and numerous other national haute cuisines. Truffles are cultivated and harvested from natural environments.",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Truffle"
+    ),
+    Card(
+      scientificName: "Gomphus clavatus",
+      commonName: "Pig's Ears",
+      imageName: "pigs-ears",
+      edible: false,
+      description: "Gomphus clavatus, commonly known as pig's ears or the violet chanterelle, is an edible species of fungus in the genus Gomphus native to Eurasia and North America. The fruit body is vase- or fan-shaped with wavy edges to its rim, and grows up to 15–16 cm (6–6+1⁄4 in) wide and 17 cm (6+3⁄4 in) tall. The upper surface or cap is orangish-brown to lilac, while the lower spore-bearing surface, the hymenium, is covered in wrinkles and ridges rather than gills or pores, and is a distinctive purple color ",
+      wikipediaUrlString: "https://en.wikipedia.org/wiki/Gomphus_clavatus"
+    ),
+    Card(
       scientificName: "Armillaria mellea",
       commonName: "Honey Fungus",
       imageName: "honey-fungus",

@@ -16,30 +16,35 @@ struct AboutView: View {
         Text("Attributions")
           .headerStyle()
         
-        Text("[Giant puffball image](https://commons.wikimedia.org/wiki/File:Calvatia_gigantea.jpg) © Hans Hillewaert")
+        Text("""
+        [Giant puffball image](https://commons.wikimedia.org/wiki/File:Calvatia_gigantea.jpg) © Hans Hillewaert
+        [Omphalotus illudens image](https://commons.wikimedia.org/wiki/File:2007-08-05_Omphalotus_illudens_(Schwein.)_Bresinsky_%26_Besl_1018098506.jpg) © Jason Hollinger
+        [Entoloma abortivum image](https://commons.wikimedia.org/wiki/File:Armillaria_gallica_57535.jpg) © Dan Molter
+        [Ganoderma applanatum image](https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg) © George Chernilevsky
+        [Fistulina hepatica image](https://commons.wikimedia.org/wiki/File:Fistulina_hepatica.JPG) © Jiří Berkovec
+        [Craterellus cornucopioides image](https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_JPG1.jpg) © Jean-Pol GRANDMONT
+        [Corn Smut image](https://commons.wikimedia.org/wiki/File:Ustilago_maydis_J1b.jpg) © Jamain
+        [Peniophora albobadia image](https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_196080.jpg) © Patrick Harvey
+        [Chlorophyllum molybdites image](https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_Guadalajara.jpg) © Alan Rockefeller
+        [Hydnum umbilicatum image](https://commons.wikimedia.org/wiki/File:Hydnum_umbilicatum_mycowalt.jpg) © Walt Sturgeon. Editied background.
+        [Pleurotus eryngii image](https://commons.wikimedia.org/wiki/File:Seta_de_cardo_(Pleurotus_eryngii),_2012-10-03,_DD_01.JPG) © Diego Delso. Editied background.
+        [Lactarius image](https://commons.wikimedia.org/wiki/File:Lactarius_quietus_2010_G1_crop.jpg) © George Chernilevsky
+        [Matsutake image](https://commons.wikimedia.org/wiki/File:Matsutake.jpg) © Tomomarusan
+        [Gomphus clavatus image](https://commons.wikimedia.org/wiki/File:Gomphus_clavatus_II_Totes_Gebirge.jpg) © Vavrin
+        [Lingzhi image](https://commons.wikimedia.org/wiki/File:Ganoderma_lingzhi_Wu,_Cao_%26_Dai_574883.jpg) © Leoboudv
+        [Russula image](https://commons.wikimedia.org/wiki/File:Russulamexicana.jpg) © Alan Rockefeller
+        [Shiitake Image](https://commons.wikimedia.org/wiki/File:Shiitakegrowing.jpg) © frankenstoen from Portland, Oregon
+        [Suillus luteus Image](https://en.wikipedia.org/wiki/File:Suillus_luteus_475376.jpg) © walt sturgeon
+        [Clavariadelphus truncatus Image](https://commons.wikimedia.org/wiki/File:Clavariadelphus_truncatus_69586.jpg) © amadej trnkoczy
+        [Termitomyces reticulatus Image](https://commons.wikimedia.org/wiki/File:Termitomyces_reticulatus_37340.jpg) © Candice at Mushroom Observer
+        [Clitocybe nuda Image](https://commons.wikimedia.org/wiki/File:Clitocybe_nuda_(Fr.)_H.E._Bigelow_%26_A.H._Sm_267650.jpg) © Jimmie Veitch
+        [Stropharia rugosoannulata Image](https://commons.wikimedia.org/wiki/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg) © Ann F. Berger
+        [Truffle Image](https://commons.wikimedia.org/wiki/File:Truffe_noire_du_P%C3%A9rigord.jpg) ©  moi-même
+
+        """
+        )
           .bodyStyle()
-        
-        Text("[Omphalotus illudens image](https://commons.wikimedia.org/wiki/File:2007-08-05_Omphalotus_illudens_(Schwein.)_Bresinsky_%26_Besl_1018098506.jpg) © Jason Hollinger")
-          .bodyStyle()
-        
-        Text("[Entoloma abortivum image](https://commons.wikimedia.org/wiki/File:Armillaria_gallica_57535.jpg) © Dan Molter")
-          .bodyStyle()
-        
-        Text("[Ganoderma applanatum image](https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg) © George Chernilevsky")
-          .bodyStyle()
-        
-        Text("[Fistulina hepatica image](https://commons.wikimedia.org/wiki/File:Fistulina_hepatica.JPG) © Jiří Berkovec")
-          .bodyStyle()
-        
-        Text("[Craterellus cornucopioides image](https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_JPG1.jpg) © Jean-Pol GRANDMONT")
-          .bodyStyle()
-        
-        Text("[Corn Smut image](https://commons.wikimedia.org/wiki/File:Ustilago_maydis_J1b.jpg) © Jamain")
-          .bodyStyle()
-        
-        Text("[Peniophora albobadia image](https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_196080.jpg) © Patrick Harvey")
-          .bodyStyle()
-        
+
       }
       .padding()
     }
