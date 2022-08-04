@@ -19,9 +19,9 @@ class DetailViewModel: ObservableObject {
   
   @Published var isFavorited: Bool
 
-  var isEdible: Bool {
+/*  var isEdible: Bool {
     card.edible
-  }
+  }*/
   
   var description: String {
     card.description

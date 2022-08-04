@@ -7,7 +7,7 @@ struct CardRepository {
       commonName: "Fly Agaric",
       imageName: "fly-agaric",
       edible: false,
-      description: "Amanita muscaria, commonly known as the fly agaric or fly amanita,[5] is a basidiomycete of the genus Amanita. Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom. Although poisonous, death due to poisoning from A. muscaria ingestion is quite rare",
+      description: "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom. Although poisonous, death due to poisoning from A. muscaria ingestion is quite rare",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Amanita_muscaria"
     ),
     Card(
@@ -31,7 +31,7 @@ struct CardRepository {
       commonName: "Chicken of the Woods",
       imageName: "chicken-of-the-woods",
       edible: true,
-      description: "Laetiporus is a genus of edible mushrooms found throughout much of the world. Some species, especially Laetiporus sulphureus, are commonly known as sulphur shelf, chicken of the woods, the chicken mushroom, or the chicken fungus because it is often described as tasting like and having a texture similar to that of chicken meat. The name Laetiporus means with bright pores. Individual shelves range from 5 to 25 cm (2 to 10 inches) across.  It is most commonly found on wounds of trees, mostly oak, though it is also frequently found on eucalyptus, yew, sweet chestnut, and willow, as well as conifers in some species. Laetiporus species are parasitic and produce brown rot in the host on which they grow.",
+      description: "Laetiporus is a genus of edible mushrooms found throughout much of the world. Some species, especially Laetiporus sulphureus, are commonly known as sulphur shelf, chicken of the woods, the chicken mushroom, or the chicken fungus because it is often described as tasting like and having a texture similar to that of chicken meat. The name Laetiporus means with bright pores. Individual shelves range from 5 to 25 cm (2 to 10 inches) across. It is most commonly found on wounds of trees, mostly oak, though it is also frequently found on eucalyptus, yew, sweet chestnut, and willow, as well as conifers in some species. Laetiporus species are parasitic and produce brown rot in the host on which they grow.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Laetiporus"
     ),
     Card(
@@ -39,7 +39,7 @@ struct CardRepository {
       commonName: "Chanterelle",
       imageName: "chanterelle",
       edible: true,
-      description: "Cantharellus is a genus of popular edible mushrooms, commonly known as chanterelles/ˌʃæntəˈrɛl/, a name which can also refer to the type species, Cantharellus cibarius. They are mycorrhizal fungi, meaning they form symbiotic associations with plants, making them very difficult to cultivate. Caution must be used when identifying chanterelles for consumption due to lookalikes, such as the jack-o'-lantern mushroom (Omphalotus olearius and others), which can make a person very ill. Despite this, chanterelles are one of the most recognized and harvested groups of edible mushrooms.",
+      description: "Cantharellus is a genus of popular edible mushrooms, commonly known as chanterelles, a name which can also refer to the type species, Cantharellus cibarius. They are mycorrhizal fungi, meaning they form symbiotic associations with plants, making them very difficult to cultivate. Caution must be used when identifying chanterelles for consumption due to lookalikes, such as the jack-o'-lantern mushroom (Omphalotus olearius and others), which can make a person very ill. Despite this, chanterelles are one of the most recognized and harvested groups of edible mushrooms.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Cantharellus"
     ),
     Card(
@@ -47,7 +47,7 @@ struct CardRepository {
       commonName: "Turkey Tail",
       imageName: "turkey-tail",
       edible: true,
-      description: "Trametes versicolor – also known as Coriolus versicolor and Polyporus versicolor – is a common polypore mushroom found throughout the world. Meaning of several colors, versicolor reliably describes this fungus that displays a variety of colors. The flesh itself is 1–3 mm thick and has a leathery texture. It commonly grows in tiled layers on in groups or rows on logs and stumps of deciduous trees, and is common in North America. The mushroom is stalkless and the cap is rust-brown or darker brown, sometimes with black zones. The pore surface is whitish to light brown, with pores round and with age twisted and labyrinthine. 3–8 pores per millimeter.",
+      description: "Trametes versicolor – also known as Coriolus versicolor and Polyporus versicolor – is a common polypore mushroom found throughout the world. Meaning of several colors, versicolor reliably describes this fungus that displays a variety of colors. The flesh itself is 1–3 mm thick and has a leathery texture. It commonly grows in tiled layers on in groups or rows on logs and stumps of deciduous trees, and is common in North America. The mushroom is stalkless and the cap is rust-brown or darker brown, sometimes with black zones. The pore surface is whitish to light brown, with pores round and with age twisted and labyrinthine. 3–8 pores per millimeter. Polysaccharide-K (PSK or krestin), extracted from T. versicolor, is considered safe for use as an adjunct therapy for cancer treatment in Japan where it is known as kawaratake (roof tile mushroom) and approved for clinical use.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Trametes_versicolor"
     ),
     Card(
@@ -55,12 +55,12 @@ struct CardRepository {
       commonName: "Coral Fungus",
       imageName: "coral-fungus",
       edible: false,
-      description: "Ramaria stricta, commonly known as the strict-branch coral is a coral fungus of the genus Ramaria. It has a cosmopolitan distribution, and grows on dead wood, stumps, trunks, and branches of both deciduous and coniferous trees. Its fruit body is up to 10 cm (3+7⁄8 in) tall, made of multiple slender, compact, and vertical parallel branches. Its color is typically light tan to vinaceous-brown.  The fungus is inedible due to its unpleasant odor and bitter taste. The color of the fruit body is brownish to yellow, becoming paler toward extremities.",
+      description: "Ramaria stricta, commonly known as the strict-branch coral is a coral fungus of the genus Ramaria. It has a cosmopolitan distribution, and grows on dead wood, stumps, trunks, and branches of both deciduous and coniferous trees. Its fruit body is up to 10 cm (3+7⁄8 in) tall, made of multiple slender, compact, and vertical parallel branches. Its color is typically light tan to vinaceous-brown. The fungus is inedible due to its unpleasant odor and bitter taste. The color of the fruit body is brownish to yellow, becoming paler toward extremities.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Ramaria_stricta"
     ),
     Card(
       scientificName: "Auricularia auricula-judae",
-      commonName: "Woods Ear",
+      commonName: "Wood Ear",
       imageName: "woods-ear",
       edible: true,
       description: "Wood-ear or tree ear (Chinese: 木耳; pinyin: mù'ěr, Korean: 목이 버섯), also translated wood jellyfish or tree jellyfish (Japanese: キクラゲ, Hepburn: ki-kurage), can refer to a few similar-looking edible fungi used primarily in Chinese cuisine; these are commonly sold in Asian markets shredded and dried.",
@@ -95,7 +95,7 @@ struct CardRepository {
       commonName: "Pheasant Back",
       imageName: "pheasant-back",
       edible: true,
-      description: "Cerioporus squamosus aka Polyporus squamosus is a basidiomycete bracket fungus, with common names including dryad's saddle and pheasant's back mushroom.[2] It has a widespread distribution, being found in North America, Australia, Asia, and Europe, where it causes a white rot in the heartwood of living and dead hardwood trees. The name dryad's saddle refers to creatures in Greek mythology called dryads who could conceivably fit and ride on this mushroom, whereas the pheasant's back analogy derives from the pattern of colors on the bracket matching that of a pheasant's back. ",
+      description: "Cerioporus squamosus aka Polyporus squamosus is a basidiomycete bracket fungus, with common names including dryad's saddle and pheasant's back mushroom. It has a widespread distribution, being found in North America, Australia, Asia, and Europe, where it causes a white rot in the heartwood of living and dead hardwood trees. The name dryad's saddle refers to creatures in Greek mythology called dryads who could conceivably fit and ride on this mushroom, whereas the pheasant's back analogy derives from the pattern of colors on the bracket matching that of a pheasant's back. ",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Cerioporus_squamosus"
     ),
     Card(
@@ -127,7 +127,7 @@ struct CardRepository {
       commonName: "Common Puffball",
       imageName: "common-puffball",
       edible: true,
-      description: "Lycoperdon perlatum, popularly known as the common puffball, warted puffball, gem-studded puffball, wolf farts or the devil's snuff-box, is a species of puffball fungus in the family Agaricaceae.  It is off-white with a top covered in short spiny bumps or jewels, which are easily rubbed off to leave a netlike pattern on the surface. When mature it becomes brown, and a hole in the top opens to release spores in a burst when the body is compressed by touch or falling raindrops. The puffball grows in fields, gardens, and along roadsides, as well as in grassy clearings in woods. It is edible when young and the internal flesh is completely white, although care must be taken to avoid confusion with immature fruit bodies of poisonous Amanita species.",
+      description: "Lycoperdon perlatum, popularly known as the common puffball, warted puffball, gem-studded puffball, wolf farts or the devil's snuff-box, is a species of puffball fungus in the family Agaricaceae. It is off-white with a top covered in short spiny bumps or jewels, which are easily rubbed off to leave a netlike pattern on the surface. When mature it becomes brown, and a hole in the top opens to release spores in a burst when the body is compressed by touch or falling raindrops. The puffball grows in fields, gardens, and along roadsides, as well as in grassy clearings in woods. It is edible when young and the internal flesh is completely white, although care must be taken to avoid confusion with immature fruit bodies of poisonous Amanita species.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Lycoperdon_perlatum"
     ),
     Card(
@@ -167,7 +167,7 @@ struct CardRepository {
       commonName: "Destroying Angel",
       imageName: "destroying_angel",
       edible: false,
-      description: "Amanita bisporigera is a deadly poisonous species of fungus in the family Amanitaceae. It is commonly known as the eastern destroying angel amanita,[3] the eastern North American destroying angel or just as the destroying angel, although the fungus shares this latter name with three other lethal white Amanita species, A. ocreata, A. verna and A. virosa.",
+      description: "Amanita bisporigera is a deadly poisonous species of fungus in the family Amanitaceae. It is commonly known as the eastern destroying angel amanita, the eastern North American destroying angel or just as the destroying angel, although the fungus shares this latter name with three other lethal white Amanita species, A. ocreata, A. verna and A. virosa.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Amanita_bisporigera"
     ),
     Card(
@@ -207,7 +207,7 @@ struct CardRepository {
       commonName: "Black Trumpet",
       imageName: "black-trumpet",
       edible: true,
-      description: "Craterellus cornucopioides, or horn of plenty, is an edible mushroom. It is also known as the black chanterelle, black trumpet, trompette de la mort (French), trombetta dei morti (Italian) or trumpet of the dead, djondjon (Haitian). The Cornucopia, in Greek mythology, referred to the magnificent horn of the nymph Amalthea's goat (or of herself in goat form), that filled itself with whatever meat or drink its owner requested. It has become the symbol of plenty.A possible origin for the name trumpet of the dead is that the growing mushrooms were seen as being played as trumpets by dead people under the ground. This fungus is found in woods in Europe, North America, and East Asia. Mainly it grows under beech, oak or other broad-leaved trees, especially in moss in moist spots on heavy calcareous soil. In Europe it is generally common but seems to be rare in some countries such as the Netherlands. It appears from June to November, and in the UK, from August to November. The mushroom is usually almost black, and it is hard to find because its dark colour easily blends in with the leaf litter on the forest floor. Hunters of this mushroom say it is like looking for black holes in the ground.",
+      description: "Craterellus cornucopioides, or horn of plenty, is an edible mushroom. It is also known as the black chanterelle, black trumpet, trompette de la mort (French), trombetta dei morti (Italian) or trumpet of the dead, djondjon (Haitian). The Cornucopia, in Greek mythology, referred to the magnificent horn of the nymph Amalthea's goat (or of herself in goat form), that filled itself with whatever meat or drink its owner requested. It has become the symbol of plenty. A possible origin for the name trumpet of the dead is that the growing mushrooms were seen as being played as trumpets by dead people under the ground. This fungus is found in woods in Europe, North America, and East Asia. Mainly it grows under beech, oak or other broad-leaved trees, especially in moss in moist spots on heavy calcareous soil. In Europe it is generally common but seems to be rare in some countries such as the Netherlands. It appears from June to November, and in the UK, from August to November. The mushroom is usually almost black, and it is hard to find because its dark colour easily blends in with the leaf litter on the forest floor. Hunters of this mushroom say it is like looking for black holes in the ground.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Craterellus_cornucopioides"
     ),
     Card(
@@ -223,12 +223,12 @@ struct CardRepository {
       commonName: "Giraffe Spots",
       imageName: "giraffe-spots",
       edible: false,
-      description: "Peniophora albobadia is a species of crust fungus in the family Peniophoraceae. It is a plant pathogen that affects stone fruits. First described scientifically by Lewis David de Schweinitz in 1822,[2] it was transferred to the genus Peniophora by Jacques Boidin in 1961.[3] It is most commonly found in the United States.",
+      description: "Peniophora albobadia is a species of crust fungus in the family Peniophoraceae. It is a plant pathogen that affects stone fruits. First described scientifically by Lewis David de Schweinitz in 1822, it was transferred to the genus Peniophora by Jacques Boidin in 1961. It is most commonly found in the United States.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Peniophora_albobadia"
     ),
     Card(
       scientificName: "Chlorophyllum molybdites",
-      commonName: "green-spored Lepiota",
+      commonName: "Green-spored Lepiota",
       imageName: "green-spored-lepiota",
       edible: false,
       description: "Chlorophyllum molybdites, which has the common names of false parasol, green-spored Lepiota and vomiter, is a widespread mushroom. Poisonous and producing severe gastrointestinal symptoms of vomiting and diarrhea, it is commonly conflated with the shaggy parasol or shaggy mane, and is the most commonly misidentified poisonous mushroom in North America. Chlorophyllum molybdites is the most frequently eaten poisonous mushroom in North America. The symptoms are predominantly gastrointestinal in nature, with vomiting, diarrhea and colic, often severe, occurring 1–3 hours after consumption. Although these poisonings can be severe, particularly in children, none have yet resulted in death.",
@@ -263,7 +263,7 @@ struct CardRepository {
       commonName: "King Oyster",
       imageName: "king-oyster",
       edible: true,
-      description: "Pleurotus eryngii (also known as king trumpet mushroom, French horn mushroom, eryngi, king oyster mushroom, king brown mushroom, boletus of the steppes[Note 1], trumpet royale, aliʻi oyster) is an edible mushroom native to Mediterranean regions of Europe, the Middle East, and North Africa, but also grown in many parts of Asia. Pleurotus eryngii is the largest species in the oyster mushroom genus, Pleurotus, which also contains the oyster mushroom Pleurotus ostreatus. It has a thick, meaty white stem and a small tan cap (in young specimens). Its natural range extends from the Atlantic Ocean through the Mediterranean Basin and Central Europe into Western Asia and India. Unlike other species of Pleurotus, which are primarily wood-decay fungi, the P. eryngii complex are also weak parasites on the roots of herbaceous plants, although they may also be cultured on organic wastes.",
+      description: "Pleurotus eryngii (also known as king trumpet mushroom, French horn mushroom, eryngi, king oyster mushroom, king brown mushroom) is an edible mushroom native to Mediterranean regions of Europe, the Middle East, and North Africa, but also grown in many parts of Asia. Pleurotus eryngii is the largest species in the oyster mushroom genus, Pleurotus, which also contains the oyster mushroom Pleurotus ostreatus. It has a thick, meaty white stem and a small tan cap (in young specimens). Its natural range extends from the Atlantic Ocean through the Mediterranean Basin and Central Europe into Western Asia and India. Unlike other species of Pleurotus, which are primarily wood-decay fungi, the P. eryngii complex are also weak parasites on the roots of herbaceous plants, although they may also be cultured on organic wastes.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Pleurotus_eryngii"
     ),
     Card(
@@ -327,7 +327,7 @@ struct CardRepository {
       commonName: "Wood blewit",
       imageName: "wood-blewit",
       edible: true,
-      description: "Clitocybe nuda, commonly known as the wood blewit and alternately described as Lepista nuda, is an edible mushroom native to Europe and North America. Described by Pierre Bulliard in 1790, it was also known as Tricholoma nudum for many years. It is found in both coniferous and deciduous woodlands. Wood blewits are generally regarded as a good edible, but they are known to cause allergic reactions in sensitive individuals. This is particularly likely if the mushroom is consumed raw, though allergic reactions are known even from cooked blewits.Nevertheless, it has been cultivated in Britain, the Netherlands and France. The French mycologist Pierre Bulliard described the wood blewit in his work Herbier de la France in 1790 as Agaricus nudus, reporting that it was common in the woods all year. He wrote of two varieties: one whose gills and cap are initially light violet and mature to burgundy, while the other has vine-coloured gills that intensify in colour with age.",
+      description: "Clitocybe nuda, commonly known as the wood blewit and alternately described as Lepista nuda, is an edible mushroom native to Europe and North America. Described by Pierre Bulliard in 1790, it was also known as Tricholoma nudum for many years. It is found in both coniferous and deciduous woodlands. Wood blewits are generally regarded as a good edible, but they are known to cause allergic reactions in sensitive individuals. This is particularly likely if the mushroom is consumed raw, though allergic reactions are known even from cooked blewits. Nevertheless, it has been cultivated in Britain, the Netherlands and France. The French mycologist Pierre Bulliard described the wood blewit in his work Herbier de la France in 1790 as Agaricus nudus, reporting that it was common in the woods all year. He wrote of two varieties: one whose gills and cap are initially light violet and mature to burgundy, while the other has vine-coloured gills that intensify in colour with age.",
       wikipediaUrlString: "https://en.wikipedia.org/wiki/Clitocybe_nuda"
     ),
     Card(
