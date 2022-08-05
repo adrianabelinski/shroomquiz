@@ -54,15 +54,15 @@ class QuizViewModel: ObservableObject {
   }
   
   func didAnswer(with answer: String) {
-    guard let correctAnswer = displayedCard?.commonName else { return }
+    guard let aCorrectAnswer = displayedCard?.aCommonName else { return }
     
     showingFavoriteButton = true
     
     if displayedCard?.commonName == answer {
-      self.imageOverlayText = "Correct! This mushroom is a \(correctAnswer)."
+      self.imageOverlayText = "Correct! This mushroom is \(aCorrectAnswer)."
       self.imageOverlayMessageType = .correct
     } else {
-      self.imageOverlayText = "Wrong. This mushroom is a \(correctAnswer)."
+      self.imageOverlayText = "Wrong. This mushroom is \(aCorrectAnswer)."
       self.imageOverlayMessageType = .incorrect
     }
     

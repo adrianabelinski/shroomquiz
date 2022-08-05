@@ -236,7 +236,7 @@ struct CardRepository {
     ),
     Card(
       scientificName: "Lactarius",
-      commonName: "Milk Caps",
+      commonName: "Milk Cap",
       imageName: "milk-caps",
       edible: false,
       description: "Lactarius is a genus of mushroom-producing, ectomycorrhizal fungi, containing several edible species. The species of the genus, commonly known as milk-caps, are characterized by the milky fluid they exude when cut or damaged. Like the closely related genus Russula, their flesh has a distinctive brittle consistency. It is a large genus with over 500 known species, mainly distributed in the Northern hemisphere. Recently, the genus Lactifluus has been separated from Lactarius based on molecular phylogenetic evidence.",
