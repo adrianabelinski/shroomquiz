@@ -4,9 +4,13 @@ struct AboutView: View {
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: 10) {
-        Text("ShroomQuiz is a mushroom guessing game for mycelium-loving maniacs of all kinds. Study your favorites mushrooms, and learn more about their characteristics, edibility, and where they grow.")
-          .bodyStyle()
-          
+        Text("""
+        ShroomQuiz is a mushroom guessing game for mycelium-loving maniacs of all kinds. Study your favorites mushrooms, and learn more about their characteristics, edibility, and where they grow.
+        
+        ShroomQuiz is an [open source](https://github.com/adrianabelinski/shroomquiz) SwiftUI app developed by [Adriana Belinski](https://github.com/adrianabelinski/)!
+        """)
+        .bodyStyle()
+        
         Text("Disclaimer")
           .headerStyle()
         
@@ -40,11 +44,10 @@ struct AboutView: View {
         [Clitocybe nuda Image](https://commons.wikimedia.org/wiki/File:Clitocybe_nuda_(Fr.)_H.E._Bigelow_%26_A.H._Sm_267650.jpg) © Jimmie Veitch
         [Stropharia rugosoannulata Image](https://commons.wikimedia.org/wiki/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg) © Ann F. Berger
         [Truffle Image](https://commons.wikimedia.org/wiki/File:Truffe_noire_du_P%C3%A9rigord.jpg) ©  moi-même
-
         """
         )
-          .bodyStyle()
-
+        .bodyStyle()
+        
       }
       .padding()
     }
