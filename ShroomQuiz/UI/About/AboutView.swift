@@ -5,7 +5,7 @@ struct AboutView: View {
     ScrollView {
       VStack(alignment: .leading, spacing: 10) {
         Text("""
-        ShroomQuiz is a mushroom guessing game for mycelium-loving maniacs of all kinds. Study your favorites mushrooms, and learn more about their characteristics, edibility, and where they grow.
+        ShroomQuiz is a mushroom guessing game for mycelium-loving maniacs of all kinds. Study your favorite mushrooms, and learn more about their characteristics, edibility, and where they grow.
         
         ShroomQuiz is an [open source](https://github.com/adrianabelinski/shroomquiz) SwiftUI app developed by [Adriana Belinski](https://github.com/adrianabelinski/)!
         """)
