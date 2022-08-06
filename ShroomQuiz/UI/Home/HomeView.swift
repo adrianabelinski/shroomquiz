@@ -37,6 +37,7 @@ struct HomeView: View {
         .navigationTitle("ShroomQuiz")
       }
     }
+    .navigationViewStyle(.stack)
   }
 }
 
