@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2D92352AB6167900B0F2EA /* FavoritesPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D92342AB6167900B0F2EA /* FavoritesPlaceholderView.swift */; };
 		C601EACC286D208B00371841 /* HomeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EACB286D208B00371841 /* HomeButtonStyle.swift */; };
 		C601EACF286E5F1C00371841 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EACE286E5F1C00371841 /* DetailView.swift */; };
 		C601EAD1286E5F5900371841 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601EAD0286E5F5900371841 /* DetailViewModel.swift */; };
@@ -29,10 +30,12 @@
 		C691223228399F2E0000B820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C691223128399F2E0000B820 /* Preview Assets.xcassets */; };
 		C691223B2839A5080000B820 /* QuizButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223A2839A5080000B820 /* QuizButtonStyle.swift */; };
 		C691223D2839A6F40000B820 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C691223C2839A6F40000B820 /* Color+.swift */; };
+		C6B886DE28FA54FD00BB6079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B886DD28FA54FD00BB6079 /* LaunchScreen.storyboard */; };
 		C6CAE116284EE86D0010F29D /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CAE115284EE86D0010F29D /* CardImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2D92342AB6167900B0F2EA /* FavoritesPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPlaceholderView.swift; sourceTree = "<group>"; };
 		C601EACB286D208B00371841 /* HomeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonStyle.swift; sourceTree = "<group>"; };
 		C601EACE286E5F1C00371841 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C601EAD0286E5F5900371841 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		C691223A2839A5080000B820 /* QuizButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtonStyle.swift; sourceTree = "<group>"; };
 		C691223C2839A6F40000B820 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		C693373328946F93005333AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6B886DD28FA54FD00BB6079 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6CAE115284EE86D0010F29D /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,7 @@
 		C6910ED6285FE3C900941BED /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				3A2D92342AB6167900B0F2EA /* FavoritesPlaceholderView.swift */,
 				C6910ED7285FE3E900941BED /* FavoritesView.swift */,
 				C6910F05286634BA00941BED /* FavoritesViewModel.swift */,
 			);
@@ -186,6 +191,7 @@
 				C6910F01286155C500941BED /* UI */,
 				C6910F02286155E400941BED /* Data */,
 				C691222E28399F2E0000B820 /* Assets.xcassets */,
+				C6B886DD28FA54FD00BB6079 /* LaunchScreen.storyboard */,
 				C691223028399F2E0000B820 /* Preview Content */,
 				C693373328946F93005333AA /* Info.plist */,
 			);
@@ -258,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B886DE28FA54FD00BB6079 /* LaunchScreen.storyboard in Resources */,
 				C691223228399F2E0000B820 /* Preview Assets.xcassets in Resources */,
 				C691222F28399F2E0000B820 /* Assets.xcassets in Resources */,
 			);
@@ -276,6 +283,7 @@
 				C691223D2839A6F40000B820 /* Color+.swift in Sources */,
 				C6841D6B28418EC400ADE3F9 /* QuizViewModel.swift in Sources */,
 				C656C31328935E6000A9C250 /* Text+.swift in Sources */,
+				3A2D92352AB6167900B0F2EA /* FavoritesPlaceholderView.swift in Sources */,
 				C691222B28399F2C0000B820 /* ShroomQuizApp.swift in Sources */,
 				C6910EDB285FE44100941BED /* CatalogView.swift in Sources */,
 				C6910F042861560400941BED /* FavoritesProvider.swift in Sources */,
@@ -427,8 +435,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,8 +469,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

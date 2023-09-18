@@ -6,9 +6,13 @@ struct FavoritesView: View {
   
   var body: some View {
     ScrollView {
-      ForEach(viewModel.displayedCards) { card in
-        NavigationLink(destination: DetailView(viewModel: DetailViewModel(card: card))) {
-          CardRow(card: card)
+      if viewModel.displayedCards.isEmpty {
+        FavoritesPlaceholderView()
+      } else {
+        ForEach(viewModel.displayedCards) { card in
+          NavigationLink(destination: DetailView(viewModel: DetailViewModel(card: card))) {
+            CardRow(card: card)
+          }
         }
       }
     }
