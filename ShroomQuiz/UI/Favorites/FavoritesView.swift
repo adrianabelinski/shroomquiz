@@ -20,6 +20,7 @@ struct FavoritesView: View {
       viewModel.updateDisplayedCards()//sets value for displayed cards
     }
     .navigationTitle("Favorites")
+    .background(Color.lightBeige) // modifier
   }
 }
 
