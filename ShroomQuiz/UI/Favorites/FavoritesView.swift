@@ -17,10 +17,10 @@ struct FavoritesView: View {
       }
     }
     .onAppear() {
-      viewModel.updateDisplayedCards()//sets value for displayed cards
+      viewModel.updateDisplayedCards()
     }
     .navigationTitle("Favorites")
-    .background(Color.lightBeige) // modifier
+    .background(Color.lightBeige)
   }
 }
 

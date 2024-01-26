@@ -10,15 +10,14 @@ struct DetailView: View {
         Text(viewModel.scientificName)
           .font(.title2)
           .foregroundColor(.textGrey)
-
+        
         CardImage(
           imageName: viewModel.imageName,
           overlayText: nil,
           overlayMessageType: nil,
           showingDetailIcons: true,
           isFavorited: viewModel.isFavorited,
-        //  isEdible: viewModel.isEdible, //parameter takes in a boolean
-          favoriteButtonAction: viewModel.didPressFavoriteButton //this parameter takes in a function/closure
+          favoriteButtonAction: viewModel.didPressFavoriteButton
         )
         
         Text(viewModel.description)
@@ -27,7 +26,7 @@ struct DetailView: View {
           .padding(.horizontal, 10)
           .padding(.vertical, 10)
           .foregroundColor(.textGrey)
-
+        
         Button(action: viewModel.openWikipedia, label: {
           HStack {
             Spacer()
@@ -41,7 +40,7 @@ struct DetailView: View {
               .cornerRadius(10)
               .padding(7)
             
-           Spacer()
+            Spacer()
           }
         })
       }

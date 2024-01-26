@@ -1,6 +1,6 @@
 import Foundation
 
-class FavoritesViewModel: ObservableObject { //FavoriteView will observe FavoritesViewModel based on any changes in @Published
+class FavoritesViewModel: ObservableObject {
   
   @Published var displayedCards: [Card] = []
   

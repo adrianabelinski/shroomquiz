@@ -5,7 +5,7 @@ class DetailViewModel: ObservableObject {
   
   // MARK: - Public properties
   
-  var imageName: String { //Type notation
+  var imageName: String {
     card.imageName
   }
   
@@ -18,10 +18,6 @@ class DetailViewModel: ObservableObject {
   }
   
   @Published var isFavorited: Bool
-
-/*  var isEdible: Bool {
-    card.edible
-  }*/
   
   var description: String {
     card.description

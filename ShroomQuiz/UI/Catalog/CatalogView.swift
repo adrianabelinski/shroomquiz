@@ -13,7 +13,7 @@ struct CatalogView: View {
       }
     }
     .onAppear() {
-      viewModel.updateDisplayedCards()//sets value for displayed cardsp
+      viewModel.updateDisplayedCards()
     }
     .navigationTitle("Catalog")
   }

@@ -14,7 +14,6 @@ struct QuizView: View {
           overlayMessageType: viewModel.imageOverlayMessageType,
           showingDetailIcons: viewModel.showingFavoriteButton,
           isFavorited: viewModel.isFavorited,
-         // isEdible: viewModel.isEdible,
           favoriteButtonAction: viewModel.didPressFavoriteButton
         )
         .padding()

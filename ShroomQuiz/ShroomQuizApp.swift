@@ -1,7 +1,7 @@
 import SwiftUI
 
-@main //Marks entry point in swift program
-struct ShroomQuizApp: App { //Structs made up of multiple values
+@main
+struct ShroomQuizApp: App {
   var body: some Scene {
     WindowGroup {
       HomeView()
