@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 class QuizViewModel: ObservableObject {
   
@@ -16,6 +17,8 @@ class QuizViewModel: ObservableObject {
   private var displayedCard: Card?
   private let cardRepository = CardRepository()
   private let favoritesProvider = FavoritesProvider()
+  private let feedbackGeneratorStop = UINotificationFeedbackGenerator()
+  private let feedbackGeneratorStart = UIImpactFeedbackGenerator()
   
   // MARK: - Init
   
@@ -59,9 +62,11 @@ class QuizViewModel: ObservableObject {
     if displayedCard?.commonName == answer {
       self.imageOverlayText = "Correct! This mushroom is \(aCorrectAnswer)."
       self.imageOverlayMessageType = .correct
+      feedbackGeneratorStart.impactOccurred()
     } else {
       self.imageOverlayText = "Wrong. This mushroom is \(aCorrectAnswer)."
       self.imageOverlayMessageType = .incorrect
+      feedbackGeneratorStop.notificationOccurred(.success)
     }
     
     self.buttonOptions = nil

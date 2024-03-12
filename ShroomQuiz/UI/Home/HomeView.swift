@@ -9,7 +9,7 @@ struct HomeView: View {
           .resizable()
           .aspectRatio(contentMode: .fill)
           .ignoresSafeArea()
-          .padding(.top, 20)
+          //.padding(.top, 20)
           .padding(.bottom, -90)
           .padding(.leading, 250)
         
@@ -34,6 +34,7 @@ struct HomeView: View {
           }
           .buttonStyle(HomeButtonStyle(buttonColor: .purpleGrape))
         }
+        .padding(.bottom, 105)
         .navigationTitle("ShroomQuiz")
       }
     }

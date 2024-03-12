@@ -6,7 +6,8 @@ struct HomeButtonStyle: ButtonStyle {
   
   func makeBody(configuration: Self.Configuration) -> some View {
     return configuration.label
-      .font(.title.bold())
+      .font(.custom("HelveticaNeue-Bold", size: 30, relativeTo: .title3))
+      //.font(.title.bold())
       .shadow(color: .black.opacity(0.3), radius: 2, x: 1, y: 1)
       .frame(width: 300, height: 65, alignment: .center)
       .background(buttonColor)
