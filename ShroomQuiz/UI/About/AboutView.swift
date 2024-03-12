@@ -30,8 +30,10 @@ struct AboutView: View {
         [Corn Smut image](https://commons.wikimedia.org/wiki/File:Ustilago_maydis_J1b.jpg) © Jamain
         [Peniophora albobadia image](https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_196080.jpg) © Patrick Harvey
         [Chlorophyllum molybdites image](https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_Guadalajara.jpg) © Alan Rockefeller
-        [Hydnum umbilicatum image](https://commons.wikimedia.org/wiki/File:Hydnum_umbilicatum_mycowalt.jpg) © Walt Sturgeon. Editied background.
-        [Pleurotus eryngii image](https://commons.wikimedia.org/wiki/File:Seta_de_cardo_(Pleurotus_eryngii),_2012-10-03,_DD_01.JPG) © Diego Delso. Editied background.
+        [Hydnum umbilicatum image](https://commons.wikimedia.org/wiki/File:Hydnum_umbilicatum_mycowalt.jpg) © Walt Sturgeon. 
+        Edited background.
+        [Pleurotus eryngii image](https://commons.wikimedia.org/wiki/File:Seta_de_cardo_(Pleurotus_eryngii),_2012-10-03,_DD_01.JPG) © Diego Delso.
+        Edited background.
         [Lactarius image](https://commons.wikimedia.org/wiki/File:Lactarius_quietus_2010_G1_crop.jpg) © George Chernilevsky
         [Matsutake image](https://commons.wikimedia.org/wiki/File:Matsutake.jpg) © Tomomarusan
         [Gomphus clavatus image](https://commons.wikimedia.org/wiki/File:Gomphus_clavatus_II_Totes_Gebirge.jpg) © Vavrin
@@ -46,8 +48,7 @@ struct AboutView: View {
         [Truffle Image](https://commons.wikimedia.org/wiki/File:Truffe_noire_du_P%C3%A9rigord.jpg) ©  moi-même
         """
         )
-        .bodyStyle()
-        
+        .font(Font.custom("Helvetica", size: 14, relativeTo: .title3))
       }
       .padding()
     }
